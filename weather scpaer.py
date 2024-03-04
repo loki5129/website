@@ -314,6 +314,21 @@ with open(txt_file_path, 'r') as file:
 #print(found_lines_c)
 #for idx, line in enumerate(found_lines, start=1):
    # print(f"{line}")
+celsius_pattern = re.compile(r'temperature.*?value="(.*?)"')
+wind_d_pattern= re.compile(r'windDirection.*?name="(.*?)"')
+wind_b_pattern= re.compile(r'windSpeed.*?mps="(.*?)"')
+wind_bf_pattern=re.compile(r'windSpeed.*?beaufort="(.*?)"')
+wind_g_pattern= re.compile(r'windGust.*?mps="(.*?)"')
+wind_g_vlaue_c= [float(match.group(1)) for line in found_lines_c if (match := wind_g_pattern.search(line))]
+celsius_value_c = [float(match.group(1)) for line in found_lines_c if (match := celsius_pattern.search(line))]
+wind_d_value_c= [str(match.group(1)) for line in found_lines_c if (match := wind_d_pattern.search(line))]
+wind_b_value_c= [float(match.group(1)) for line in found_lines_c if (match := wind_b_pattern.search(line))]
+wind_bf_value_c= [int(match.group(1)) for line in found_lines_c if (match := wind_bf_pattern.search(line))]
+print("Celsius values:", celsius_value_c)
+print("wind direction: ",wind_d_value_c)
+print("wind blow in miles: ",wind_b_value_c)
+print("beaufort scale: ",wind_bf_value_c)
+print("wind gust in miles: ",wind_g_vlaue_c)
 h1=today+ datetime.timedelta(hours=2)
 rounded_h1 = today+datetime.timedelta(hours=2)
 rounded_h1_1 = rounded_h1.replace(minute=0, second=0, microsecond=0)
@@ -1388,7 +1403,7 @@ with open(txt_file_path, 'r') as file:
             print(f"Line {line_number}: {line.strip()}")
             for _ in range(19):
                 found_d4_h22.append(next(file).strip())
-#print(found_d4_h22)          
+#print("d_22",found_d4_h22)          
 
 d4_h23=today+ datetime.timedelta(hours=83)
 rounded_d4_h23 = today+datetime.timedelta(hours=83)
@@ -1415,4 +1430,4 @@ with open(txt_file_path, 'r') as file:
             for _ in range(19):
                 found_d4_h24.append(next(file).strip())
 #print(found_d4_h24)          
-                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                             
