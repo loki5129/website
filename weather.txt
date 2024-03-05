@@ -1,0 +1,13 @@
+SEA AREA FORECAST/title
+until until-time = "2024-03-06T12:00:00+00:00"/
+issued issued-time = "2024-03-05T12:00:00+00:00"/
+gale status="no"/
+small-craft status="yes"/
+met-sit time="0900" 
+Forecast for Irish coastal waters from Malin Head to Howth Head to Mizen Head and for the Irish Sea
+Decreasing southwesterly or variable force 2 to 4 imminent. Soon backing south to southeast and increasing force 3 to 5, strongest west of Hook Head. Later increasing force 5 or 6.
+Patchy rain, drizzle and mist clearing northeastwards, soon mostly fair with isolated showers.
+ Improving mostly good.
+Outlook for a further 24 hours until 
+Fresh to strong south or southeast winds, near gale force at times in the north and northwest. Increasing mainly strong to near gale force through Wednesday night. Weather: Scattered outbreaks of rain in southern, southwestern and western parts, clearing westwards Wednesday night. Isolated showers elsewhere.
+On western and southwestern coasts this afternoon.
