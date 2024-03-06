@@ -1,16 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     # Define your variables here
-    variable1 = "Hello"
-    variable2 = "World"
-    variable3 = 42
-    
-    # Pass all variables to the HTML template
-    return render_template('index.html', variables=dict(variable1=variable1, variable2=variable2, variable3=variable3))
+    python_variable1 = "Hello"
+    python_variable2 = 42
+
+    # Return a template that includes JavaScript code
+    return render_template('script.js', python_variable1=python_variable1, python_variable2=python_variable2)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,7 +1,8 @@
 from urllib.request import urlopen
 import re
 import datetime
-file=open("weather.txt", "w")
+import requests
+file=open(" weather.txt", "w")
 url = "https://www.met.ie/Open_Data/xml/Met-Sea-area.xml"
 page = urlopen(url)
 html = page.read().decode("utf-8")
@@ -11,8 +12,8 @@ title = html[start_index:end_index]
 file.write(title)
 file.close
   # Your XML file path
-txt_file_path = 'weather.txt'
-output_file_path = 'weather.txt'
+txt_file_path = ' weather.txt'
+output_file_path = ' weather.txt'
 
 first_11_lines = []
 
@@ -165,7 +166,7 @@ ___xml_content[13:16] = ['\n', '\n', '\n']
 with open(txt_file_path, 'w') as file:
     file.writelines(___xml_content)
 
-file=open("weather.txt","a")
+file=open(" weather.txt","a")
 url="https://www.met.ie/Open_Data/json/warning_IRELAND.json"
 page=urlopen(url)
 html = page.read().decode("utf-8")
@@ -196,15 +197,29 @@ with open(txt_file_path, 'w') as file:
     file.writelines(lines)
 
 
-file=open("weather.txt", "a")
+
+
+# URL to fetch data from
 url = "https://metwdb-openaccess.ichec.ie/metno-wdb2ts/locationforecast?lat=53.277130;long=-6.144750"
-page = urlopen(url)
-html = page.read().decode("utf-8")
-start_index = html.find("<div class=folder id=folder3>") + len("<div class=folder id=folder3>")
-end_index = html.find("</div class=folder id=folder3>")
-title = html[start_index:end_index]
-file.write(title)
-file.close
+
+# Make a GET request to the URL
+response = requests.get(url)
+
+# Check if the request was successful (status code 200)
+if response.status_code == 200:
+    # Extract the content from the response
+    data = response.text
+
+    # Specify the file path to save the data
+    file_path = "weather.txt"
+
+    # Write the data into a text file
+    with open(file_path, "a", encoding="utf-8") as file:
+        file.write(data)
+
+    print(f"Data successfully written to {file_path}")
+else:
+    print(f"Failed to retrieve data. Status code: {response.status_code}")
 
 
 
@@ -1775,6 +1790,7 @@ wind_bf_value_d3_h15= [int(match.group(1)) for line in found_d3_h15 if (match :=
 #print("beaufort scale: ",wind_bf_value_d3_h15)
 #print("wind gust in mps: ",wind_g_value_d3_h15)
 #print("wind gust in knots: ", wind_g_k_value_d3_h15)
+
 d3_h16=today+ datetime.timedelta(hours=54)
 rounded_d3_h16 = today+datetime.timedelta(hours=54)
 rounded_d3_h16_1 = rounded_d3_h16.replace(minute=0, second=0, microsecond=0)
@@ -2732,4 +2748,18 @@ wind_bf_value_d4_h24= [int(match.group(1)) for line in found_d4_h24 if (match :=
 #print("beaufort scale: ",wind_bf_value_d4_h24)
 #print("wind gust in mps: ",wind_g_value_d4_h24)
 #print("wind gust in knots: ", wind_g_k_value_d4_h24)
-all_variables = globals().copy()
+# Example Python file (example_file.py)
+
+global_var = "I am a global variable"
+
+def my_function():
+    local_var = "I am a local variable"
+    print(local_var)
+
+# List all variables in the file
+all_variables = [var for var in dir() if not callable(globals()[var]) and not var.startswith("__")]
+
+# Print the list of variables
+print("All Variables with Count:")
+for count, variable in enumerate(all_variables, 1):
+  print(f"{count}. {variable}")
