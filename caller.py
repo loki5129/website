@@ -13,7 +13,7 @@ def run_python_file(file_path):
 
 if __name__ == "__main__":
     # Replace 'data_runner.py' and 'weather_data.py' with the names of the Python files you want to execute
-    python_files_to_run = ['C:\\Users\\tjbwa\\Downloads\\website-main\\website-main\\data_runner.py', 'C:\\Users\\tjbwa\\Downloads\\website-main\\website-main\\weather_data.py','C:\\Users\\tjbwa\\Downloads\\website-main\\website-main\\vairable_store.py']
+    python_files_to_run = ['C:\\Users\\Student 2021\\Downloads\\website\\data_runner.py','C:\\Users\\Student 2021\\Downloads\\website\\weather_data.py','C:\\Users\\Student 2021\\Downloads\\website\\json_runner.py']
 
     # Keep track of whether both files ran successfully
     all_files_successful = True
