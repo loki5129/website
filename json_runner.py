@@ -25,3 +25,38 @@ with open(json_file_path, 'w') as json_file:
     json.dump(all_variables, json_file, default=serialize, indent=4)
 
 print(f"All variables and values exported to {json_file_path}")
+
+
+def separate_object_parts(json_object):
+    separated_objects = [{"key": key, "value": value} for key, value in json_object.items()]
+    return separated_objects
+
+def write_objects_to_file(objects, output_file):
+    with open(output_file, 'w') as file:
+        json.dump(objects, file, indent=2)
+
+def main():
+    file_path = "var.json"
+    output_file = "pot.json"
+
+    try:
+        with open(file_path, 'r') as file:
+            json_str = file.read()
+            json_object = json.loads(json_str)
+            if isinstance(json_object, dict):
+                separated_objects = separate_object_parts(json_object)
+                #print("Separated object parts:")
+                #for obj in separated_objects:
+                    #print(json.dumps(obj, indent=2))
+
+                write_objects_to_file(separated_objects, output_file)
+                print(f"Separated objects written to {output_file}")
+            else:
+                print("The content of the file is not a valid JSON object.")
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+    except json.JSONDecodeError:
+        print("Error decoding JSON. Please check if the file contains a valid JSON object.")
+
+if __name__ == "__main__":
+    main()
