@@ -9,8 +9,8 @@ body {
 /* styles.css */
 
 .container {
-    max-width: 80px;
-    margin: 0 auto;
+    max-width: 2000px;
+    margin: 0 ;
     padding: 20px;
     display: flex; /* Use flexbox */
     flex-wrap: wrap; /* Allow flex items to wrap */
@@ -23,7 +23,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    flex: 0 0 calc(33.33% - 20px); /* Calculate width based on 3 cards per row */
+    flex: 0 0 calc(20% - 20px); /* Calculate width based on 3 cards per row */
 }
 
 .hourly-forecast-item {

@@ -7,6 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
         const now = new Date();
         const roundedHour = String(Math.ceil(now.getHours()+1)).padStart(2, '0');
         document.getElementById('current-time').textContent = roundedHour + ':' + "00";
+        const onetime = String(Math.ceil(now.getHours()+2)).padStart(2, '0');
+        document.getElementById("1time").textContent = onetime + ':' + '00';
+        const twotime = String(Math.ceil(now.getHours()+3)).padStart(2, '0');
+        document.getElementById("2time").textContent = twotime + ':' + '00';
+        const threetime = String(Math.ceil(now.getHours()+4)).padStart(2, '0');
+        document.getElementById("3time").textContent = threetime + ':' + '00';
     }
     
     // Update time every second
