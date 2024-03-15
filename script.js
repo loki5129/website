@@ -61,6 +61,7 @@ document.getElementById("beaufort scale h1").textContent = wind_BF_value_h1;
  
 const celsius_value_h2 = variablesObject.celsius_value_h2;
 const wind_D_value_h2 = variablesObject.wind_d_value_h2;
+console.log(wind_BF_value_h1);
 const wind_B_value_h2 = variablesObject.wind_b_value_h2;
 const wind_bk_value_h2 = variablesObject.wind_b_k_value_h2;
 const wind_G_value_h2 = variablesObject.wind_g_value_h2;
@@ -82,6 +83,13 @@ const wind_bk_value_h3 = variablesObject.wind_b_k_value_h3;
 const wind_G_value_h3 = variablesObject.wind_g_value_h3;
 const wind_GK_value_h3 = variablesObject.wind_g_k_value_h3;
 const wind_BF_value_h3 = variablesObject.wind_bf_value_h3;
+document.getElementById("temperature h3").textContent = celsius_value_h3 + "C";
+document.getElementById("wind direction h3").textContent = wind_D_value_h3;
+document.getElementById("wind speed in mps h3").textContent = wind_B_value_h3 + "mps";
+document.getElementById("wind speed in kts h3").textContent = wind_bk_value_h3+ "kts";
+document.getElementById("wind gust in mps h3").textContent = wind_G_value_h3+"mps";
+document.getElementById("wind gust in kts h3").textContent = wind_GK_value_h3 + "kts";
+document.getElementById("beaufort scale h3").textContent = wind_BF_value_h3;
 
 
 const celsius_value_h4 = variablesObject.celsius_value_h4;
@@ -91,6 +99,14 @@ const wind_bk_value_h4 = variablesObject.wind_b_k_value_h4;
 const wind_G_value_h4 = variablesObject.wind_g_value_h4;
 const wind_GK_value_h4 = variablesObject.wind_g_k_value_h4;
 const wind_BF_value_h4 = variablesObject.wind_bf_value_h4;
+document.getElementById("temperature h4").textContent = celsius_value_h4 + "C";
+document.getElementById("wind direction h4").textContent = wind_D_value_h4;
+document.getElementById("wind speed in mps h4").textContent = wind_B_value_h4 + "mps";
+document.getElementById("wind speed in kts h4").textContent = wind_bk_value_h4+ "kts";
+document.getElementById("wind gust in mps h4").textContent = wind_G_value_h4+"mps";
+document.getElementById("wind gust in kts h4").textContent = wind_GK_value_h4 + "kts";
+document.getElementById("beaufort scale h4").textContent = wind_BF_value_h4;
+
 
 const celsius_value_h5 = variablesObject.celsius_value_h5;
 const wind_D_value_h5 = variablesObject.wind_d_value_h5;
@@ -99,6 +115,13 @@ const wind_bk_value_h5 = variablesObject.wind_b_k_value_h5;
 const wind_G_value_h5 = variablesObject.wind_g_value_h5;
 const wind_GK_value_h5 = variablesObject.wind_g_k_value_h5;
 const wind_BF_value_h5 = variablesObject.wind_bf_value_h5;
+document.getElementById("temperature h5").textContent = celsius_value_h5 + "C";
+document.getElementById("wind direction h5").textContent = wind_D_value_h5;
+document.getElementById("wind speed in mps h5").textContent = wind_B_value_h5 + "mps";
+document.getElementById("wind speed in kts h5").textContent = wind_bk_value_h5+ "kts";
+document.getElementById("wind gust in mps h5").textContent = wind_G_value_h5+"mps";
+document.getElementById("wind gust in kts h5").textContent = wind_GK_value_h5 + "kts";
+document.getElementById("beaufort scale h5").textContent = wind_BF_value_h5;
 
 const celsius_value_h6 = variablesObject.celsius_value_h6;
 const wind_D_value_h6 = variablesObject.wind_d_value_h6;
@@ -107,6 +130,14 @@ const wind_bk_value_h6 = variablesObject.wind_b_k_value_h6;
 const wind_G_value_h6 = variablesObject.wind_g_value_h6;
 const wind_GK_value_h6 = variablesObject.wind_g_k_value_h6;
 const wind_BF_value_h6 = variablesObject.wind_bf_value_h6;
+document.getElementById("temperature h6").textContent = celsius_value_h6 + "C";
+document.getElementById("wind direction h6").textContent = wind_D_value_h6;
+document.getElementById("wind speed in mps h6").textContent = wind_B_value_h6 + "mps";
+document.getElementById("wind speed in kts h6").textContent = wind_bk_value_h6+ "kts";
+document.getElementById("wind gust in mps h6").textContent = wind_G_value_h6+"mps";
+document.getElementById("wind gust in kts h6").textContent = wind_GK_value_h6 + "kts";
+document.getElementById("beaufort scale h6").textContent = wind_BF_value_h6;
+
 
 const celsius_value_h7 = variablesObject.celsius_value_h7;
 const wind_D_value_h7 = variablesObject.wind_d_value_h7;
@@ -115,6 +146,13 @@ const wind_bk_value_h7 = variablesObject.wind_b_k_value_h7;
 const wind_G_value_h7 = variablesObject.wind_g_value_h7;
 const wind_GK_value_h7 = variablesObject.wind_g_k_value_h7;
 const wind_BF_value_h7 = variablesObject.wind_bf_value_h7;
+document.getElementById("temperature h7").textContent = celsius_value_h7 + "C";
+document.getElementById("wind direction h7").textContent = wind_D_value_h7;
+document.getElementById("wind speed in mps h7").textContent = wind_B_value_h7 + "mps";
+document.getElementById("wind speed in kts h7").textContent = wind_bk_value_h7+ "kts";
+document.getElementById("wind gust in mps h7").textContent = wind_G_value_h7+"mps";
+document.getElementById("wind gust in kts h7").textContent = wind_GK_value_h7 + "kts";
+document.getElementById("beaufort scale h7").textContent = wind_BF_value_h7;
 
 const celsius_value_h8 = variablesObject.celsius_value_h8;
 const wind_D_value_h8 = variablesObject.wind_d_value_h8;
@@ -123,6 +161,14 @@ const wind_bk_value_h8 = variablesObject.wind_b_k_value_h8;
 const wind_G_value_h8 = variablesObject.wind_g_value_h8;
 const wind_GK_value_h8 = variablesObject.wind_g_k_value_h8;
 const wind_BF_value_h8 = variablesObject.wind_bf_value_h8;
+document.getElementById("temperature h8").textContent = celsius_value_h8 + "C";
+document.getElementById("wind direction h8").textContent = wind_D_value_h8;
+document.getElementById("wind speed in mps h8").textContent = wind_B_value_h8 + "mps";
+document.getElementById("wind speed in kts h8").textContent = wind_bk_value_h8+ "kts";
+document.getElementById("wind gust in mps h8").textContent = wind_G_value_h8+"mps";
+document.getElementById("wind gust in kts h8").textContent = wind_GK_value_h8 + "kts";
+document.getElementById("beaufort scale h8").textContent = wind_BF_value_h8;
+
 
 const celsius_value_h9 = variablesObject.celsius_value_h9;
 const wind_D_value_h9 = variablesObject.wind_d_value_h9;
@@ -131,6 +177,14 @@ const wind_bk_value_h9 = variablesObject.wind_b_k_value_h9;
 const wind_G_value_h9 = variablesObject.wind_g_value_h9;
 const wind_GK_value_h9 = variablesObject.wind_g_k_value_h9;
 const wind_BF_value_h9 = variablesObject.wind_bf_value_h9;
+document.getElementById("temperature h9").textContent = celsius_value_h9 + "C";
+document.getElementById("wind direction h9").textContent = wind_D_value_h9;
+document.getElementById("wind speed in mps h9").textContent = wind_B_value_h9 + "mps";
+document.getElementById("wind speed in kts h9").textContent = wind_bk_value_h9+ "kts";
+document.getElementById("wind gust in mps h9").textContent = wind_G_value_h9+"mps";
+document.getElementById("wind gust in kts h9").textContent = wind_GK_value_h9 + "kts";
+document.getElementById("beaufort scale h9").textContent = wind_BF_value_h9;
+
 
 const celsius_value_h10 = variablesObject.celsius_value_h10;
 const wind_D_value_h10 = variablesObject.wind_d_value_h10;
