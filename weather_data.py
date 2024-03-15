@@ -72,10 +72,10 @@ celsius_value_h1 = [float(match.group(1)) for line in found_h1 if (match := cels
 wind_d_value_h1= [str(match.group(1)) for line in found_h1 if (match := wind_d_pattern.search(line))]
 wind_b_value_h1 = [float(match.group(1)) for line in found_h1 if (match := wind_b_pattern.search(line))]
 wind_b_h1_float_values_h1 = [item for item in wind_b_value_h1 if isinstance(item, float)]
-wind_b_k_value_h1 = [item * 1.944 for item in wind_b_h1_float_values_h1]
+wind_b_k_value_h1 = [round(item*1.944,1) for item in wind_b_h1_float_values_h1]
 wind_g_value_h1= [float(match.group(1)) for line in found_h1 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h1 = [item for item in wind_g_value_h1 if isinstance(item, float)]
-wind_g_k_value_h1=[item * 1.944 for item in wind_g_float_values_h1]
+wind_g_k_value_h1=[round(item*1.944,1) for item in wind_g_float_values_h1]
 wind_bf_value_h1= [int(match.group(1)) for line in found_h1 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h1)
 #print("wind direction: ",wind_d_value_h1)
@@ -104,10 +104,10 @@ celsius_value_h2 = [float(match.group(1)) for line in found_h2 if (match := cels
 wind_d_value_h2= [str(match.group(1)) for line in found_h2 if (match := wind_d_pattern.search(line))]
 wind_b_value_h2 = [float(match.group(1)) for line in found_h2 if (match := wind_b_pattern.search(line))]
 wind_b_h2_float_values_h2 = [item for item in wind_b_value_h2 if isinstance(item, float)]
-wind_b_k_value_h2 = [item * 1.944 for item in wind_b_h2_float_values_h2]
+wind_b_k_value_h2 = [round(item*1.944,1) for item in wind_b_h2_float_values_h2]
 wind_g_value_h2= [float(match.group(1)) for line in found_h2 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h2 = [item for item in wind_g_value_h2 if isinstance(item, float)]
-wind_g_k_value_h2=[item * 1.944 for item in wind_g_float_values_h2]
+wind_g_k_value_h2=[round(item*1.944,1) for item in wind_g_float_values_h2]
 wind_bf_value_h2= [int(match.group(1)) for line in found_h2 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h2)
 #print("wind direction: ",wind_d_value_h2)
@@ -135,10 +135,10 @@ celsius_value_h3 = [float(match.group(1)) for line in found_h3 if (match := cels
 wind_d_value_h3= [str(match.group(1)) for line in found_h3 if (match := wind_d_pattern.search(line))]
 wind_b_value_h3 = [float(match.group(1)) for line in found_h3 if (match := wind_b_pattern.search(line))]
 wind_b_h3_float_values_h3 = [item for item in wind_b_value_h3 if isinstance(item, float)]
-wind_b_k_value_h3 = [item * 1.944 for item in wind_b_h3_float_values_h3]
+wind_b_k_value_h3 = [round(item*1.944,1) for item in wind_b_h3_float_values_h3]
 wind_g_value_h3= [float(match.group(1)) for line in found_h3 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h3 = [item for item in wind_g_value_h3 if isinstance(item, float)]
-wind_g_k_value_h3=[item * 1.944 for item in wind_g_float_values_h3]
+wind_g_k_value_h3=[round(item*1.944,1) for item in wind_g_float_values_h3]
 wind_bf_value_h3= [int(match.group(1)) for line in found_h3 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h3)
 #print("wind direction: ",wind_d_value_h3)
@@ -166,10 +166,10 @@ celsius_value_h4 = [float(match.group(1)) for line in found_h4 if (match := cels
 wind_d_value_h4= [str(match.group(1)) for line in found_h4 if (match := wind_d_pattern.search(line))]
 wind_b_value_h4 = [float(match.group(1)) for line in found_h4 if (match := wind_b_pattern.search(line))]
 wind_b_h4_float_values_h4 = [item for item in wind_b_value_h4 if isinstance(item, float)]
-wind_b_k_value_h4 = [item * 1.944 for item in wind_b_h4_float_values_h4]
+wind_b_k_value_h4 = [round(item*1.944,1) for item in wind_b_h4_float_values_h4]
 wind_g_value_h4= [float(match.group(1)) for line in found_h4 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h4 = [item for item in wind_g_value_h4 if isinstance(item, float)]
-wind_g_k_value_h4=[item * 1.944 for item in wind_g_float_values_h4]
+wind_g_k_value_h4=[round(item*1.944,1) for item in wind_g_float_values_h4]
 wind_bf_value_h4= [int(match.group(1)) for line in found_h4 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h4)
 #print("wind direction: ",wind_d_value_h4)
@@ -197,10 +197,10 @@ celsius_value_h5 = [float(match.group(1)) for line in found_h5 if (match := cels
 wind_d_value_h5= [str(match.group(1)) for line in found_h5 if (match := wind_d_pattern.search(line))]
 wind_b_value_h5 = [float(match.group(1)) for line in found_h5 if (match := wind_b_pattern.search(line))]
 wind_b_h5_float_values_h5 = [item for item in wind_b_value_h5 if isinstance(item, float)]
-wind_b_k_value_h5 = [item * 1.944 for item in wind_b_h5_float_values_h5]
+wind_b_k_value_h5 = [round(item*1.944,1) for item in wind_b_h5_float_values_h5]
 wind_g_value_h5= [float(match.group(1)) for line in found_h5 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h5 = [item for item in wind_g_value_h5 if isinstance(item, float)]
-wind_g_k_value_h5=[item * 1.944 for item in wind_g_float_values_h5]
+wind_g_k_value_h5=[round(item*1.944,1) for item in wind_g_float_values_h5]
 wind_bf_value_h5= [int(match.group(1)) for line in found_h5 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h5)
 #print("wind direction: ",wind_d_value_h5)
@@ -228,10 +228,10 @@ celsius_value_h6 = [float(match.group(1)) for line in found_h6 if (match := cels
 wind_d_value_h6= [str(match.group(1)) for line in found_h6 if (match := wind_d_pattern.search(line))]
 wind_b_value_h6 = [float(match.group(1)) for line in found_h6 if (match := wind_b_pattern.search(line))]
 wind_b_h6_float_values_h6 = [item for item in wind_b_value_h6 if isinstance(item, float)]
-wind_b_k_value_h6 = [item * 1.944 for item in wind_b_h6_float_values_h6]
+wind_b_k_value_h6 = [round(item*1.944,1) for item in wind_b_h6_float_values_h6]
 wind_g_value_h6= [float(match.group(1)) for line in found_h6 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h6 = [item for item in wind_g_value_h6 if isinstance(item, float)]
-wind_g_k_value_h6=[item * 1.944 for item in wind_g_float_values_h6]
+wind_g_k_value_h6=[round(item*1.944,1) for item in wind_g_float_values_h6]
 wind_bf_value_h6= [int(match.group(1)) for line in found_h6 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h6)
 #print("wind direction: ",wind_d_value_h6)
@@ -260,10 +260,10 @@ celsius_value_h7 = [float(match.group(1)) for line in found_h7 if (match := cels
 wind_d_value_h7= [str(match.group(1)) for line in found_h7 if (match := wind_d_pattern.search(line))]
 wind_b_value_h7 = [float(match.group(1)) for line in found_h7 if (match := wind_b_pattern.search(line))]
 wind_b_h7_float_values_h7 = [item for item in wind_b_value_h7 if isinstance(item, float)]
-wind_b_k_value_h7 = [item * 1.944 for item in wind_b_h7_float_values_h7]
+wind_b_k_value_h7 = [round(item*1.944,1) for item in wind_b_h7_float_values_h7]
 wind_g_value_h7= [float(match.group(1)) for line in found_h7 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h7 = [item for item in wind_g_value_h7 if isinstance(item, float)]
-wind_g_k_value_h7=[item * 1.944 for item in wind_g_float_values_h7]
+wind_g_k_value_h7=[round(item*1.944,1) for item in wind_g_float_values_h7]
 wind_bf_value_h7= [int(match.group(1)) for line in found_h7 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h7)
 #print("wind direction: ",wind_d_value_h7)
@@ -291,10 +291,10 @@ celsius_value_h8 = [float(match.group(1)) for line in found_h8 if (match := cels
 wind_d_value_h8= [str(match.group(1)) for line in found_h8 if (match := wind_d_pattern.search(line))]
 wind_b_value_h8 = [float(match.group(1)) for line in found_h8 if (match := wind_b_pattern.search(line))]
 wind_b_h8_float_values_h8 = [item for item in wind_b_value_h8 if isinstance(item, float)]
-wind_b_k_value_h8 = [item * 1.944 for item in wind_b_h8_float_values_h8]
+wind_b_k_value_h8 = [round(item*1.944,1) for item in wind_b_h8_float_values_h8]
 wind_g_value_h8= [float(match.group(1)) for line in found_h8 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h8 = [item for item in wind_g_value_h8 if isinstance(item, float)]
-wind_g_k_value_h8=[item * 1.944 for item in wind_g_float_values_h8]
+wind_g_k_value_h8=[round(item*1.944,1) for item in wind_g_float_values_h8]
 wind_bf_value_h8= [int(match.group(1)) for line in found_h8 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h8)
 #print("wind direction: ",wind_d_value_h8)
@@ -322,10 +322,10 @@ celsius_value_h9 = [float(match.group(1)) for line in found_h9 if (match := cels
 wind_d_value_h9= [str(match.group(1)) for line in found_h9 if (match := wind_d_pattern.search(line))]
 wind_b_value_h9 = [float(match.group(1)) for line in found_h9 if (match := wind_b_pattern.search(line))]
 wind_b_h9_float_values_h9 = [item for item in wind_b_value_h9 if isinstance(item, float)]
-wind_b_k_value_h9 = [item * 1.944 for item in wind_b_h9_float_values_h9]
+wind_b_k_value_h9 = [round(item*1.944,1) for item in wind_b_h9_float_values_h9]
 wind_g_value_h9= [float(match.group(1)) for line in found_h9 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h9 = [item for item in wind_g_value_h9 if isinstance(item, float)]
-wind_g_k_value_h9=[item * 1.944 for item in wind_g_float_values_h9]
+wind_g_k_value_h9=[round(item*1.944,1) for item in wind_g_float_values_h9]
 wind_bf_value_h9= [int(match.group(1)) for line in found_h9 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h9)
 #print("wind direction: ",wind_d_value_h9)
@@ -353,10 +353,10 @@ celsius_value_h10 = [float(match.group(1)) for line in found_h10 if (match := ce
 wind_d_value_h10= [str(match.group(1)) for line in found_h10 if (match := wind_d_pattern.search(line))]
 wind_b_value_h10 = [float(match.group(1)) for line in found_h10 if (match := wind_b_pattern.search(line))]
 wind_b_h10_float_values_h10 = [item for item in wind_b_value_h10 if isinstance(item, float)]
-wind_b_k_value_h10 = [item * 1.944 for item in wind_b_h10_float_values_h10]
+wind_b_k_value_h10 = [round(item*1.944,1) for item in wind_b_h10_float_values_h10]
 wind_g_value_h10= [float(match.group(1)) for line in found_h10 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h10 = [item for item in wind_g_value_h10 if isinstance(item, float)]
-wind_g_k_value_h10=[item * 1.944 for item in wind_g_float_values_h10]
+wind_g_k_value_h10=[round(item*1.944,1) for item in wind_g_float_values_h10]
 wind_bf_value_h10= [int(match.group(1)) for line in found_h10 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h10)
 #print("wind direction: ",wind_d_value_h10)
@@ -384,10 +384,10 @@ celsius_value_h11 = [float(match.group(1)) for line in found_h11 if (match := ce
 wind_d_value_h11= [str(match.group(1)) for line in found_h11 if (match := wind_d_pattern.search(line))]
 wind_b_value_h11 = [float(match.group(1)) for line in found_h11 if (match := wind_b_pattern.search(line))]
 wind_b_h11_float_values_h11 = [item for item in wind_b_value_h11 if isinstance(item, float)]
-wind_b_k_value_h11 = [item * 1.944 for item in wind_b_h11_float_values_h11]
+wind_b_k_value_h11 = [round(item*1.944,1) for item in wind_b_h11_float_values_h11]
 wind_g_value_h11= [float(match.group(1)) for line in found_h11 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h11 = [item for item in wind_g_value_h11 if isinstance(item, float)]
-wind_g_k_value_h11=[item * 1.944 for item in wind_g_float_values_h11]
+wind_g_k_value_h11=[round(item*1.944,1) for item in wind_g_float_values_h11]
 wind_bf_value_h11= [int(match.group(1)) for line in found_h11 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h11)
 #print("wind direction: ",wind_d_value_h11)
@@ -415,10 +415,10 @@ celsius_value_h12 = [float(match.group(1)) for line in found_h12 if (match := ce
 wind_d_value_h12= [str(match.group(1)) for line in found_h12 if (match := wind_d_pattern.search(line))]
 wind_b_value_h12 = [float(match.group(1)) for line in found_h12 if (match := wind_b_pattern.search(line))]
 wind_b_h12_float_values_h12 = [item for item in wind_b_value_h12 if isinstance(item, float)]
-wind_b_k_value_h12 = [item * 1.944 for item in wind_b_h12_float_values_h12]
+wind_b_k_value_h12 = [round(item*1.944,1) for item in wind_b_h12_float_values_h12]
 wind_g_value_h12= [float(match.group(1)) for line in found_h12 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h12 = [item for item in wind_g_value_h12 if isinstance(item, float)]
-wind_g_k_value_h12=[item * 1.944 for item in wind_g_float_values_h12]
+wind_g_k_value_h12=[round(item*1.944,1) for item in wind_g_float_values_h12]
 wind_bf_value_h12= [int(match.group(1)) for line in found_h12 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h12)
 #print("wind direction: ",wind_d_value_h12)
@@ -446,10 +446,10 @@ celsius_value_h13 = [float(match.group(1)) for line in found_h13 if (match := ce
 wind_d_value_h13= [str(match.group(1)) for line in found_h13 if (match := wind_d_pattern.search(line))]
 wind_b_value_h13 = [float(match.group(1)) for line in found_h13 if (match := wind_b_pattern.search(line))]
 wind_b_h13_float_values_h13 = [item for item in wind_b_value_h13 if isinstance(item, float)]
-wind_b_k_value_h13 = [item * 1.944 for item in wind_b_h13_float_values_h13]
+wind_b_k_value_h13 = [round(item*1.944,1) for item in wind_b_h13_float_values_h13]
 wind_g_value_h13= [float(match.group(1)) for line in found_h13 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h13 = [item for item in wind_g_value_h13 if isinstance(item, float)]
-wind_g_k_value_h13=[item * 1.944 for item in wind_g_float_values_h13]
+wind_g_k_value_h13=[round(item*1.944,1) for item in wind_g_float_values_h13]
 wind_bf_value_h13= [int(match.group(1)) for line in found_h13 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h13)
 #print("wind direction: ",wind_d_value_h13)
@@ -477,10 +477,10 @@ celsius_value_d2_h1 = [float(match.group(1)) for line in found_d2_h1 if (match :
 wind_d_value_d2_h1= [str(match.group(1)) for line in found_d2_h1 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h1 = [float(match.group(1)) for line in found_d2_h1 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h1_float_values_d2_h1 = [item for item in wind_b_value_d2_h1 if isinstance(item, float)]
-wind_b_k_value_d2_h1 = [item * 1.944 for item in wind_b_d2_h1_float_values_d2_h1]
+wind_b_k_value_d2_h1 = [round(item*1.944,1) for item in wind_b_d2_h1_float_values_d2_h1]
 wind_g_value_d2_h1= [float(match.group(1)) for line in found_d2_h1 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h1 = [item for item in wind_g_value_d2_h1 if isinstance(item, float)]
-wind_g_k_value_d2_h1=[item * 1.944 for item in wind_g_float_values_d2_h1]
+wind_g_k_value_d2_h1=[round(item*1.944,1) for item in wind_g_float_values_d2_h1]
 wind_bf_value_d2_h1= [int(match.group(1)) for line in found_d2_h1 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h1)
 #print("wind direction: ",wind_d_value_d2_h1)
@@ -508,10 +508,10 @@ celsius_value_d2_h2 = [float(match.group(1)) for line in found_d2_h2 if (match :
 wind_d_value_d2_h2= [str(match.group(1)) for line in found_d2_h2 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h2 = [float(match.group(1)) for line in found_d2_h2 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h2_float_values_d2_h2 = [item for item in wind_b_value_d2_h2 if isinstance(item, float)]
-wind_b_k_value_d2_h2 = [item * 1.944 for item in wind_b_d2_h2_float_values_d2_h2]
+wind_b_k_value_d2_h2 = [round(item*1.944,1) for item in wind_b_d2_h2_float_values_d2_h2]
 wind_g_value_d2_h2= [float(match.group(1)) for line in found_d2_h2 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h2 = [item for item in wind_g_value_d2_h2 if isinstance(item, float)]
-wind_g_k_value_d2_h2=[item * 1.944 for item in wind_g_float_values_d2_h2]
+wind_g_k_value_d2_h2=[round(item*1.944,1) for item in wind_g_float_values_d2_h2]
 wind_bf_value_d2_h2= [int(match.group(1)) for line in found_d2_h2 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h2)
 #print("wind direction: ",wind_d_value_d2_h2)
@@ -539,10 +539,10 @@ celsius_value_d2_h3 = [float(match.group(1)) for line in found_d2_h3 if (match :
 wind_d_value_d2_h3= [str(match.group(1)) for line in found_d2_h3 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h3 = [float(match.group(1)) for line in found_d2_h3 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h3_float_values_d2_h3 = [item for item in wind_b_value_d2_h3 if isinstance(item, float)]
-wind_b_k_value_d2_h3 = [item * 1.944 for item in wind_b_d2_h3_float_values_d2_h3]
+wind_b_k_value_d2_h3 = [round(item*1.944,1) for item in wind_b_d2_h3_float_values_d2_h3]
 wind_g_value_d2_h3= [float(match.group(1)) for line in found_d2_h3 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h3 = [item for item in wind_g_value_d2_h3 if isinstance(item, float)]
-wind_g_k_value_d2_h3=[item * 1.944 for item in wind_g_float_values_d2_h3]
+wind_g_k_value_d2_h3=[round(item*1.944,1) for item in wind_g_float_values_d2_h3]
 wind_bf_value_d2_h3= [int(match.group(1)) for line in found_d2_h3 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h3)
 #print("wind direction: ",wind_d_value_d2_h3)
@@ -570,10 +570,10 @@ celsius_value_d2_h4 = [float(match.group(1)) for line in found_d2_h4 if (match :
 wind_d_value_d2_h4= [str(match.group(1)) for line in found_d2_h4 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h4 = [float(match.group(1)) for line in found_d2_h4 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h4_float_values_d2_h4 = [item for item in wind_b_value_d2_h4 if isinstance(item, float)]
-wind_b_k_value_d2_h4 = [item * 1.944 for item in wind_b_d2_h4_float_values_d2_h4]
+wind_b_k_value_d2_h4 = [round(item*1.944,1) for item in wind_b_d2_h4_float_values_d2_h4]
 wind_g_value_d2_h4= [float(match.group(1)) for line in found_d2_h4 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h4 = [item for item in wind_g_value_d2_h4 if isinstance(item, float)]
-wind_g_k_value_d2_h4=[item * 1.944 for item in wind_g_float_values_d2_h4]
+wind_g_k_value_d2_h4=[round(item*1.944,1) for item in wind_g_float_values_d2_h4]
 wind_bf_value_d2_h4= [int(match.group(1)) for line in found_d2_h4 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h4)
 #print("wind direction: ",wind_d_value_d2_h4)
@@ -601,10 +601,10 @@ celsius_value_d2_h5 = [float(match.group(1)) for line in found_d2_h5 if (match :
 wind_d_value_d2_h5= [str(match.group(1)) for line in found_d2_h5 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h5 = [float(match.group(1)) for line in found_d2_h5 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h5_float_values_d2_h5 = [item for item in wind_b_value_d2_h5 if isinstance(item, float)]
-wind_b_k_value_d2_h5 = [item * 1.944 for item in wind_b_d2_h5_float_values_d2_h5]
+wind_b_k_value_d2_h5 = [round(item*1.944,1) for item in wind_b_d2_h5_float_values_d2_h5]
 wind_g_value_d2_h5= [float(match.group(1)) for line in found_d2_h5 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h5 = [item for item in wind_g_value_d2_h5 if isinstance(item, float)]
-wind_g_k_value_d2_h5=[item * 1.944 for item in wind_g_float_values_d2_h5]
+wind_g_k_value_d2_h5=[round(item*1.944,1) for item in wind_g_float_values_d2_h5]
 wind_bf_value_d2_h5= [int(match.group(1)) for line in found_d2_h5 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h5)
 #print("wind direction: ",wind_d_value_d2_h5)
@@ -632,10 +632,10 @@ celsius_value_d2_h6 = [float(match.group(1)) for line in found_d2_h6 if (match :
 wind_d_value_d2_h6= [str(match.group(1)) for line in found_d2_h6 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h6 = [float(match.group(1)) for line in found_d2_h6 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h6_float_values_d2_h6 = [item for item in wind_b_value_d2_h6 if isinstance(item, float)]
-wind_b_k_value_d2_h6 = [item * 1.944 for item in wind_b_d2_h6_float_values_d2_h6]
+wind_b_k_value_d2_h6 = [round(item*1.944,1) for item in wind_b_d2_h6_float_values_d2_h6]
 wind_g_value_d2_h6= [float(match.group(1)) for line in found_d2_h6 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h6 = [item for item in wind_g_value_d2_h6 if isinstance(item, float)]
-wind_g_k_value_d2_h6=[item * 1.944 for item in wind_g_float_values_d2_h6]
+wind_g_k_value_d2_h6=[round(item*1.944,1) for item in wind_g_float_values_d2_h6]
 wind_bf_value_d2_h6= [int(match.group(1)) for line in found_d2_h6 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h6)
 #print("wind direction: ",wind_d_value_d2_h6)
@@ -663,10 +663,10 @@ celsius_value_d2_h7 = [float(match.group(1)) for line in found_d2_h7 if (match :
 wind_d_value_d2_h7= [str(match.group(1)) for line in found_d2_h7 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h7 = [float(match.group(1)) for line in found_d2_h7 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h7_float_values_d2_h7 = [item for item in wind_b_value_d2_h7 if isinstance(item, float)]
-wind_b_k_value_d2_h7 = [item * 1.944 for item in wind_b_d2_h7_float_values_d2_h7]
+wind_b_k_value_d2_h7 = [round(item*1.944,1) for item in wind_b_d2_h7_float_values_d2_h7]
 wind_g_value_d2_h7= [float(match.group(1)) for line in found_d2_h7 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h7 = [item for item in wind_g_value_d2_h7 if isinstance(item, float)]
-wind_g_k_value_d2_h7=[item * 1.944 for item in wind_g_float_values_d2_h7]
+wind_g_k_value_d2_h7=[round(item*1.944,1) for item in wind_g_float_values_d2_h7]
 wind_bf_value_d2_h7= [int(match.group(1)) for line in found_d2_h7 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h7)
 #print("wind direction: ",wind_d_value_d2_h7)
@@ -694,10 +694,10 @@ celsius_value_d2_h8 = [float(match.group(1)) for line in found_d2_h8 if (match :
 wind_d_value_d2_h8= [str(match.group(1)) for line in found_d2_h8 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h8 = [float(match.group(1)) for line in found_d2_h8 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h8_float_values_d2_h8 = [item for item in wind_b_value_d2_h8 if isinstance(item, float)]
-wind_b_k_value_d2_h8 = [item * 1.944 for item in wind_b_d2_h8_float_values_d2_h8]
+wind_b_k_value_d2_h8 = [round(item*1.944,1) for item in wind_b_d2_h8_float_values_d2_h8]
 wind_g_value_d2_h8= [float(match.group(1)) for line in found_d2_h8 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h8 = [item for item in wind_g_value_d2_h8 if isinstance(item, float)]
-wind_g_k_value_d2_h8=[item * 1.944 for item in wind_g_float_values_d2_h8]
+wind_g_k_value_d2_h8=[round(item*1.944,1) for item in wind_g_float_values_d2_h8]
 wind_bf_value_d2_h8= [int(match.group(1)) for line in found_d2_h8 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h8)
 #print("wind direction: ",wind_d_value_d2_h8)
@@ -725,10 +725,10 @@ celsius_value_d2_h9 = [float(match.group(1)) for line in found_d2_h9 if (match :
 wind_d_value_d2_h9= [str(match.group(1)) for line in found_d2_h9 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h9 = [float(match.group(1)) for line in found_d2_h9 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h9_float_values_d2_h9 = [item for item in wind_b_value_d2_h9 if isinstance(item, float)]
-wind_b_k_value_d2_h9 = [item * 1.944 for item in wind_b_d2_h9_float_values_d2_h9]
+wind_b_k_value_d2_h9 = [round(item*1.944,1) for item in wind_b_d2_h9_float_values_d2_h9]
 wind_g_value_d2_h9= [float(match.group(1)) for line in found_d2_h9 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h9 = [item for item in wind_g_value_d2_h9 if isinstance(item, float)]
-wind_g_k_value_d2_h9=[item * 1.944 for item in wind_g_float_values_d2_h9]
+wind_g_k_value_d2_h9=[round(item*1.944,1) for item in wind_g_float_values_d2_h9]
 wind_bf_value_d2_h9= [int(match.group(1)) for line in found_d2_h9 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h9)
 #print("wind direction: ",wind_d_value_d2_h9)
@@ -756,10 +756,10 @@ celsius_value_d2_h10 = [float(match.group(1)) for line in found_d2_h10 if (match
 wind_d_value_d2_h10= [str(match.group(1)) for line in found_d2_h10 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h10 = [float(match.group(1)) for line in found_d2_h10 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h10_float_values_d2_h10 = [item for item in wind_b_value_d2_h10 if isinstance(item, float)]
-wind_b_k_value_d2_h10 = [item * 1.944 for item in wind_b_d2_h10_float_values_d2_h10]
+wind_b_k_value_d2_h10 = [round(item*1.944,1) for item in wind_b_d2_h10_float_values_d2_h10]
 wind_g_value_d2_h10= [float(match.group(1)) for line in found_d2_h10 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h10 = [item for item in wind_g_value_d2_h10 if isinstance(item, float)]
-wind_g_k_value_d2_h10=[item * 1.944 for item in wind_g_float_values_d2_h10]
+wind_g_k_value_d2_h10=[round(item*1.944,1) for item in wind_g_float_values_d2_h10]
 wind_bf_value_d2_h10= [int(match.group(1)) for line in found_d2_h10 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h10)
 #print("wind direction: ",wind_d_value_d2_h10)
@@ -787,10 +787,10 @@ celsius_value_d2_h11 = [float(match.group(1)) for line in found_d2_h11 if (match
 wind_d_value_d2_h11= [str(match.group(1)) for line in found_d2_h11 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h11 = [float(match.group(1)) for line in found_d2_h11 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h11_float_values_d2_h11 = [item for item in wind_b_value_d2_h11 if isinstance(item, float)]
-wind_b_k_value_d2_h11 = [item * 1.944 for item in wind_b_d2_h11_float_values_d2_h11]
+wind_b_k_value_d2_h11 = [round(item*1.944,1) for item in wind_b_d2_h11_float_values_d2_h11]
 wind_g_value_d2_h11= [float(match.group(1)) for line in found_d2_h11 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h11 = [item for item in wind_g_value_d2_h11 if isinstance(item, float)]
-wind_g_k_value_d2_h11=[item * 1.944 for item in wind_g_float_values_d2_h11]
+wind_g_k_value_d2_h11=[round(item*1.944,1) for item in wind_g_float_values_d2_h11]
 wind_bf_value_d2_h11= [int(match.group(1)) for line in found_d2_h11 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h11)
 #print("wind direction: ",wind_d_value_d2_h11)
@@ -818,10 +818,10 @@ celsius_value_d2_h12 = [float(match.group(1)) for line in found_d2_h12 if (match
 wind_d_value_d2_h12= [str(match.group(1)) for line in found_d2_h12 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h12 = [float(match.group(1)) for line in found_d2_h12 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h12_float_values_d2_h12 = [item for item in wind_b_value_d2_h12 if isinstance(item, float)]
-wind_b_k_value_d2_h12 = [item * 1.944 for item in wind_b_d2_h12_float_values_d2_h12]
+wind_b_k_value_d2_h12 = [round(item*1.944,1) for item in wind_b_d2_h12_float_values_d2_h12]
 wind_g_value_d2_h12= [float(match.group(1)) for line in found_d2_h12 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h12 = [item for item in wind_g_value_d2_h12 if isinstance(item, float)]
-wind_g_k_value_d2_h12=[item * 1.944 for item in wind_g_float_values_d2_h12]
+wind_g_k_value_d2_h12=[round(item*1.944,1) for item in wind_g_float_values_d2_h12]
 wind_bf_value_d2_h12= [int(match.group(1)) for line in found_d2_h12 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h12)
 #print("wind direction: ",wind_d_value_d2_h12)
@@ -848,10 +848,10 @@ celsius_value_d2_h13 = [float(match.group(1)) for line in found_d2_h13 if (match
 wind_d_value_d2_h13= [str(match.group(1)) for line in found_d2_h13 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h13 = [float(match.group(1)) for line in found_d2_h13 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h13_float_values_d2_h13 = [item for item in wind_b_value_d2_h13 if isinstance(item, float)]
-wind_b_k_value_d2_h13 = [item * 1.944 for item in wind_b_d2_h13_float_values_d2_h13]
+wind_b_k_value_d2_h13 = [round(item*1.944,1) for item in wind_b_d2_h13_float_values_d2_h13]
 wind_g_value_d2_h13= [float(match.group(1)) for line in found_d2_h13 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h13 = [item for item in wind_g_value_d2_h13 if isinstance(item, float)]
-wind_g_k_value_d2_h13=[item * 1.944 for item in wind_g_float_values_d2_h13]
+wind_g_k_value_d2_h13=[round(item*1.944,1) for item in wind_g_float_values_d2_h13]
 wind_bf_value_d2_h13= [int(match.group(1)) for line in found_d2_h13 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h13)
 #print("wind direction: ",wind_d_value_d2_h13)
@@ -879,10 +879,10 @@ celsius_value_h2 = [float(match.group(1)) for line in found_h2 if (match := cels
 wind_d_value_h2= [str(match.group(1)) for line in found_h2 if (match := wind_d_pattern.search(line))]
 wind_b_value_h2 = [float(match.group(1)) for line in found_h2 if (match := wind_b_pattern.search(line))]
 wind_b_h2_float_values_h2 = [item for item in wind_b_value_h2 if isinstance(item, float)]
-wind_b_k_value_h2 = [item * 1.944 for item in wind_b_h2_float_values_h2]
+wind_b_k_value_h2 = [round(item*1.944,1) for item in wind_b_h2_float_values_h2]
 wind_g_value_h2= [float(match.group(1)) for line in found_h2 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_h2 = [item for item in wind_g_value_h2 if isinstance(item, float)]
-wind_g_k_value_h2=[item * 1.944 for item in wind_g_float_values_h2]
+wind_g_k_value_h2=[round(item*1.944,1) for item in wind_g_float_values_h2]
 wind_bf_value_h2= [int(match.group(1)) for line in found_h2 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_h2)
 #print("wind direction: ",wind_d_value_h2)
@@ -910,10 +910,10 @@ celsius_value_d2_h14 = [float(match.group(1)) for line in found_d2_h14 if (match
 wind_d_value_d2_h14= [str(match.group(1)) for line in found_d2_h14 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h14 = [float(match.group(1)) for line in found_d2_h14 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h14_float_values_d2_h14 = [item for item in wind_b_value_d2_h14 if isinstance(item, float)]
-wind_b_k_value_d2_h14 = [item * 1.944 for item in wind_b_d2_h14_float_values_d2_h14]
+wind_b_k_value_d2_h14 = [round(item*1.944,1) for item in wind_b_d2_h14_float_values_d2_h14]
 wind_g_value_d2_h14= [float(match.group(1)) for line in found_d2_h14 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h14 = [item for item in wind_g_value_d2_h14 if isinstance(item, float)]
-wind_g_k_value_d2_h14=[item * 1.944 for item in wind_g_float_values_d2_h14]
+wind_g_k_value_d2_h14=[round(item*1.944,1) for item in wind_g_float_values_d2_h14]
 wind_bf_value_d2_h14= [int(match.group(1)) for line in found_d2_h14 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h14)
 #print("wind direction: ",wind_d_value_d2_h14)
@@ -941,10 +941,10 @@ celsius_value_d2_h15 = [float(match.group(1)) for line in found_d2_h15 if (match
 wind_d_value_d2_h15= [str(match.group(1)) for line in found_d2_h15 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h15 = [float(match.group(1)) for line in found_d2_h15 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h15_float_values_d2_h15 = [item for item in wind_b_value_d2_h15 if isinstance(item, float)]
-wind_b_k_value_d2_h15 = [item * 1.944 for item in wind_b_d2_h15_float_values_d2_h15]
+wind_b_k_value_d2_h15 = [round(item*1.944,1) for item in wind_b_d2_h15_float_values_d2_h15]
 wind_g_value_d2_h15= [float(match.group(1)) for line in found_d2_h15 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h15 = [item for item in wind_g_value_d2_h15 if isinstance(item, float)]
-wind_g_k_value_d2_h15=[item * 1.944 for item in wind_g_float_values_d2_h15]
+wind_g_k_value_d2_h15=[round(item*1.944,1) for item in wind_g_float_values_d2_h15]
 wind_bf_value_d2_h15= [int(match.group(1)) for line in found_d2_h15 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h15)
 #print("wind direction: ",wind_d_value_d2_h15)
@@ -972,10 +972,10 @@ celsius_value_d2_h16 = [float(match.group(1)) for line in found_d2_h16 if (match
 wind_d_value_d2_h16= [str(match.group(1)) for line in found_d2_h16 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h16 = [float(match.group(1)) for line in found_d2_h16 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h16_float_values_d2_h16 = [item for item in wind_b_value_d2_h16 if isinstance(item, float)]
-wind_b_k_value_d2_h16 = [item * 1.944 for item in wind_b_d2_h16_float_values_d2_h16]
+wind_b_k_value_d2_h16 = [round(item*1.944,1) for item in wind_b_d2_h16_float_values_d2_h16]
 wind_g_value_d2_h16= [float(match.group(1)) for line in found_d2_h16 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h16 = [item for item in wind_g_value_d2_h16 if isinstance(item, float)]
-wind_g_k_value_d2_h16=[item * 1.944 for item in wind_g_float_values_d2_h16]
+wind_g_k_value_d2_h16=[round(item*1.944,1) for item in wind_g_float_values_d2_h16]
 wind_bf_value_d2_h16= [int(match.group(1)) for line in found_d2_h16 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h16)
 #print("wind direction: ",wind_d_value_d2_h16)
@@ -1003,10 +1003,10 @@ celsius_value_d2_h17 = [float(match.group(1)) for line in found_d2_h17 if (match
 wind_d_value_d2_h17= [str(match.group(1)) for line in found_d2_h17 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h17 = [float(match.group(1)) for line in found_d2_h17 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h17_float_values_d2_h17 = [item for item in wind_b_value_d2_h17 if isinstance(item, float)]
-wind_b_k_value_d2_h17 = [item * 1.944 for item in wind_b_d2_h17_float_values_d2_h17]
+wind_b_k_value_d2_h17 = [round(item*1.944,1) for item in wind_b_d2_h17_float_values_d2_h17]
 wind_g_value_d2_h17= [float(match.group(1)) for line in found_d2_h17 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h17 = [item for item in wind_g_value_d2_h17 if isinstance(item, float)]
-wind_g_k_value_d2_h17=[item * 1.944 for item in wind_g_float_values_d2_h17]
+wind_g_k_value_d2_h17=[round(item*1.944,1) for item in wind_g_float_values_d2_h17]
 wind_bf_value_d2_h17= [int(match.group(1)) for line in found_d2_h17 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h17)
 #print("wind direction: ",wind_d_value_d2_h17)
@@ -1034,10 +1034,10 @@ celsius_value_d2_h18 = [float(match.group(1)) for line in found_d2_h18 if (match
 wind_d_value_d2_h18= [str(match.group(1)) for line in found_d2_h18 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h18 = [float(match.group(1)) for line in found_d2_h18 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h18_float_values_d2_h18 = [item for item in wind_b_value_d2_h18 if isinstance(item, float)]
-wind_b_k_value_d2_h18 = [item * 1.944 for item in wind_b_d2_h18_float_values_d2_h18]
+wind_b_k_value_d2_h18 = [round(item*1.944,1) for item in wind_b_d2_h18_float_values_d2_h18]
 wind_g_value_d2_h18= [float(match.group(1)) for line in found_d2_h18 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h18 = [item for item in wind_g_value_d2_h18 if isinstance(item, float)]
-wind_g_k_value_d2_h18=[item * 1.944 for item in wind_g_float_values_d2_h18]
+wind_g_k_value_d2_h18=[round(item*1.944,1) for item in wind_g_float_values_d2_h18]
 wind_bf_value_d2_h18= [int(match.group(1)) for line in found_d2_h18 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h18)
 #print("wind direction: ",wind_d_value_d2_h18)
@@ -1065,10 +1065,10 @@ celsius_value_d2_h19 = [float(match.group(1)) for line in found_d2_h19 if (match
 wind_d_value_d2_h19= [str(match.group(1)) for line in found_d2_h19 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h19 = [float(match.group(1)) for line in found_d2_h19 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h19_float_values_d2_h19 = [item for item in wind_b_value_d2_h19 if isinstance(item, float)]
-wind_b_k_value_d2_h19 = [item * 1.944 for item in wind_b_d2_h19_float_values_d2_h19]
+wind_b_k_value_d2_h19 = [round(item*1.944,1) for item in wind_b_d2_h19_float_values_d2_h19]
 wind_g_value_d2_h19= [float(match.group(1)) for line in found_d2_h19 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h19 = [item for item in wind_g_value_d2_h19 if isinstance(item, float)]
-wind_g_k_value_d2_h19=[item * 1.944 for item in wind_g_float_values_d2_h19]
+wind_g_k_value_d2_h19=[round(item*1.944,1) for item in wind_g_float_values_d2_h19]
 wind_bf_value_d2_h19= [int(match.group(1)) for line in found_d2_h19 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h19)
 #print("wind direction: ",wind_d_value_d2_h19)
@@ -1096,10 +1096,10 @@ celsius_value_d2_h20 = [float(match.group(1)) for line in found_d2_h20 if (match
 wind_d_value_d2_h20= [str(match.group(1)) for line in found_d2_h20 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h20 = [float(match.group(1)) for line in found_d2_h20 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h20_float_values_d2_h20 = [item for item in wind_b_value_d2_h20 if isinstance(item, float)]
-wind_b_k_value_d2_h20 = [item * 1.944 for item in wind_b_d2_h20_float_values_d2_h20]
+wind_b_k_value_d2_h20 = [round(item*1.944,1) for item in wind_b_d2_h20_float_values_d2_h20]
 wind_g_value_d2_h20= [float(match.group(1)) for line in found_d2_h20 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h20 = [item for item in wind_g_value_d2_h20 if isinstance(item, float)]
-wind_g_k_value_d2_h20=[item * 1.944 for item in wind_g_float_values_d2_h20]
+wind_g_k_value_d2_h20=[round(item*1.944,1) for item in wind_g_float_values_d2_h20]
 wind_bf_value_d2_h20= [int(match.group(1)) for line in found_d2_h20 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h20)
 #print("wind direction: ",wind_d_value_d2_h20)
@@ -1127,10 +1127,10 @@ celsius_value_d2_h21 = [float(match.group(1)) for line in found_d2_h21 if (match
 wind_d_value_d2_h21= [str(match.group(1)) for line in found_d2_h21 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h21 = [float(match.group(1)) for line in found_d2_h21 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h21_float_values_d2_h21 = [item for item in wind_b_value_d2_h21 if isinstance(item, float)]
-wind_b_k_value_d2_h21 = [item * 1.944 for item in wind_b_d2_h21_float_values_d2_h21]
+wind_b_k_value_d2_h21 = [round(item*1.944,1) for item in wind_b_d2_h21_float_values_d2_h21]
 wind_g_value_d2_h21= [float(match.group(1)) for line in found_d2_h21 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h21 = [item for item in wind_g_value_d2_h21 if isinstance(item, float)]
-wind_g_k_value_d2_h21=[item * 1.944 for item in wind_g_float_values_d2_h21]
+wind_g_k_value_d2_h21=[round(item*1.944,1) for item in wind_g_float_values_d2_h21]
 wind_bf_value_d2_h21= [int(match.group(1)) for line in found_d2_h21 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h21)
 #print("wind direction: ",wind_d_value_d2_h21)
@@ -1157,10 +1157,10 @@ celsius_value_d2_h22 = [float(match.group(1)) for line in found_d2_h22 if (match
 wind_d_value_d2_h22= [str(match.group(1)) for line in found_d2_h22 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h22 = [float(match.group(1)) for line in found_d2_h22 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h22_float_values_d2_h22 = [item for item in wind_b_value_d2_h22 if isinstance(item, float)]
-wind_b_k_value_d2_h22 = [item * 1.944 for item in wind_b_d2_h22_float_values_d2_h22]
+wind_b_k_value_d2_h22 = [round(item*1.944,1) for item in wind_b_d2_h22_float_values_d2_h22]
 wind_g_value_d2_h22= [float(match.group(1)) for line in found_d2_h22 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h22 = [item for item in wind_g_value_d2_h22 if isinstance(item, float)]
-wind_g_k_value_d2_h22=[item * 1.944 for item in wind_g_float_values_d2_h22]
+wind_g_k_value_d2_h22=[round(item*1.944,1) for item in wind_g_float_values_d2_h22]
 wind_bf_value_d2_h22= [int(match.group(1)) for line in found_d2_h22 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h22)
 #print("wind direction: ",wind_d_value_d2_h22)
@@ -1188,10 +1188,10 @@ celsius_value_d2_h23 = [float(match.group(1)) for line in found_d2_h23 if (match
 wind_d_value_d2_h23= [str(match.group(1)) for line in found_d2_h23 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h23 = [float(match.group(1)) for line in found_d2_h23 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h23_float_values_d2_h23 = [item for item in wind_b_value_d2_h23 if isinstance(item, float)]
-wind_b_k_value_d2_h23 = [item * 1.944 for item in wind_b_d2_h23_float_values_d2_h23]
+wind_b_k_value_d2_h23 = [round(item*1.944,1) for item in wind_b_d2_h23_float_values_d2_h23]
 wind_g_value_d2_h23= [float(match.group(1)) for line in found_d2_h23 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h23 = [item for item in wind_g_value_d2_h23 if isinstance(item, float)]
-wind_g_k_value_d2_h23=[item * 1.944 for item in wind_g_float_values_d2_h23]
+wind_g_k_value_d2_h23=[round(item*1.944,1) for item in wind_g_float_values_d2_h23]
 wind_bf_value_d2_h23= [int(match.group(1)) for line in found_d2_h23 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h23)
 #print("wind direction: ",wind_d_value_d2_h23)
@@ -1219,10 +1219,10 @@ celsius_value_d2_h24 = [float(match.group(1)) for line in found_d2_h24 if (match
 wind_d_value_d2_h24= [str(match.group(1)) for line in found_d2_h24 if (match := wind_d_pattern.search(line))]
 wind_b_value_d2_h24 = [float(match.group(1)) for line in found_d2_h24 if (match := wind_b_pattern.search(line))]
 wind_b_d2_h24_float_values_d2_h24 = [item for item in wind_b_value_d2_h24 if isinstance(item, float)]
-wind_b_k_value_d2_h24 = [item * 1.944 for item in wind_b_d2_h24_float_values_d2_h24]
+wind_b_k_value_d2_h24 = [round(item*1.944,1) for item in wind_b_d2_h24_float_values_d2_h24]
 wind_g_value_d2_h24= [float(match.group(1)) for line in found_d2_h24 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d2_h24 = [item for item in wind_g_value_d2_h24 if isinstance(item, float)]
-wind_g_k_value_d2_h24=[item * 1.944 for item in wind_g_float_values_d2_h24]
+wind_g_k_value_d2_h24=[round(item*1.944,1) for item in wind_g_float_values_d2_h24]
 wind_bf_value_d2_h24= [int(match.group(1)) for line in found_d2_h24 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d2_h24)
 #print("wind direction: ",wind_d_value_d2_h24)
@@ -1250,10 +1250,10 @@ celsius_value_d3_h1 = [float(match.group(1)) for line in found_d3_h1 if (match :
 wind_d_value_d3_h1= [str(match.group(1)) for line in found_d3_h1 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h1 = [float(match.group(1)) for line in found_d3_h1 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h1_float_values_d3_h1 = [item for item in wind_b_value_d3_h1 if isinstance(item, float)]
-wind_b_k_value_d3_h1 = [item * 1.944 for item in wind_b_d3_h1_float_values_d3_h1]
+wind_b_k_value_d3_h1 = [round(item*1.944,1) for item in wind_b_d3_h1_float_values_d3_h1]
 wind_g_value_d3_h1= [float(match.group(1)) for line in found_d3_h1 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h1 = [item for item in wind_g_value_d3_h1 if isinstance(item, float)]
-wind_g_k_value_d3_h1=[item * 1.944 for item in wind_g_float_values_d3_h1]
+wind_g_k_value_d3_h1=[round(item*1.944,1) for item in wind_g_float_values_d3_h1]
 wind_bf_value_d3_h1= [int(match.group(1)) for line in found_d3_h1 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h1)
 #print("wind direction: ",wind_d_value_d3_h1)
@@ -1281,10 +1281,10 @@ celsius_value_d3_h2 = [float(match.group(1)) for line in found_d3_h2 if (match :
 wind_d_value_d3_h2= [str(match.group(1)) for line in found_d3_h2 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h2 = [float(match.group(1)) for line in found_d3_h2 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h2_float_values_d3_h2 = [item for item in wind_b_value_d3_h2 if isinstance(item, float)]
-wind_b_k_value_d3_h2 = [item * 1.944 for item in wind_b_d3_h2_float_values_d3_h2]
+wind_b_k_value_d3_h2 = [round(item*1.944,1) for item in wind_b_d3_h2_float_values_d3_h2]
 wind_g_value_d3_h2= [float(match.group(1)) for line in found_d3_h2 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h2 = [item for item in wind_g_value_d3_h2 if isinstance(item, float)]
-wind_g_k_value_d3_h2=[item * 1.944 for item in wind_g_float_values_d3_h2]
+wind_g_k_value_d3_h2=[round(item*1.944,1) for item in wind_g_float_values_d3_h2]
 wind_bf_value_d3_h2= [int(match.group(1)) for line in found_d3_h2 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h2)
 #print("wind direction: ",wind_d_value_d3_h2)
@@ -1312,10 +1312,10 @@ celsius_value_d3_h3 = [float(match.group(1)) for line in found_d3_h3 if (match :
 wind_d_value_d3_h3= [str(match.group(1)) for line in found_d3_h3 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h3 = [float(match.group(1)) for line in found_d3_h3 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h3_float_values_d3_h3 = [item for item in wind_b_value_d3_h3 if isinstance(item, float)]
-wind_b_k_value_d3_h3 = [item * 1.944 for item in wind_b_d3_h3_float_values_d3_h3]
+wind_b_k_value_d3_h3 = [round(item*1.944,1) for item in wind_b_d3_h3_float_values_d3_h3]
 wind_g_value_d3_h3= [float(match.group(1)) for line in found_d3_h3 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h3 = [item for item in wind_g_value_d3_h3 if isinstance(item, float)]
-wind_g_k_value_d3_h3=[item * 1.944 for item in wind_g_float_values_d3_h3]
+wind_g_k_value_d3_h3=[round(item*1.944,1) for item in wind_g_float_values_d3_h3]
 wind_bf_value_d3_h3= [int(match.group(1)) for line in found_d3_h3 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h3)
 #print("wind direction: ",wind_d_value_d3_h3)
@@ -1483,10 +1483,10 @@ celsius_value_d3_h15 = [float(match.group(1)) for line in found_d3_h15 if (match
 wind_d_value_d3_h15= [str(match.group(1)) for line in found_d3_h15 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h15 = [float(match.group(1)) for line in found_d3_h15 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h15_float_values_d3_h15 = [item for item in wind_b_value_d3_h15 if isinstance(item, float)]
-wind_b_k_value_d3_h15 = [item * 1.944 for item in wind_b_d3_h15_float_values_d3_h15]
+wind_b_k_value_d3_h15 = [round(item*1.944,1) for item in wind_b_d3_h15_float_values_d3_h15]
 wind_g_value_d3_h15= [float(match.group(1)) for line in found_d3_h15 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h15 = [item for item in wind_g_value_d3_h15 if isinstance(item, float)]
-wind_g_k_value_d3_h15=[item * 1.944 for item in wind_g_float_values_d3_h15]
+wind_g_k_value_d3_h15=[round(item*1.944,1) for item in wind_g_float_values_d3_h15]
 wind_bf_value_d3_h15= [int(match.group(1)) for line in found_d3_h15 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h15)
 #print("wind direction: ",wind_d_value_d3_h15)
@@ -1514,10 +1514,10 @@ celsius_value_d3_h16 = [float(match.group(1)) for line in found_d3_h16 if (match
 wind_d_value_d3_h16= [str(match.group(1)) for line in found_d3_h16 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h16 = [float(match.group(1)) for line in found_d3_h16 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h16_float_values_d3_h16 = [item for item in wind_b_value_d3_h16 if isinstance(item, float)]
-wind_b_k_value_d3_h16 = [item * 1.944 for item in wind_b_d3_h16_float_values_d3_h16]
+wind_b_k_value_d3_h16 = [round(item*1.944,1) for item in wind_b_d3_h16_float_values_d3_h16]
 wind_g_value_d3_h16= [float(match.group(1)) for line in found_d3_h16 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h16 = [item for item in wind_g_value_d3_h16 if isinstance(item, float)]
-wind_g_k_value_d3_h16=[item * 1.944 for item in wind_g_float_values_d3_h16]
+wind_g_k_value_d3_h16=[round(item*1.944,1) for item in wind_g_float_values_d3_h16]
 wind_bf_value_d3_h16= [int(match.group(1)) for line in found_d3_h16 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h16)
 #print("wind direction: ",wind_d_value_d3_h16)
@@ -1544,10 +1544,10 @@ celsius_value_d3_h17 = [float(match.group(1)) for line in found_d3_h17 if (match
 wind_d_value_d3_h17= [str(match.group(1)) for line in found_d3_h17 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h17 = [float(match.group(1)) for line in found_d3_h17 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h17_float_values_d3_h17 = [item for item in wind_b_value_d3_h17 if isinstance(item, float)]
-wind_b_k_value_d3_h17 = [item * 1.944 for item in wind_b_d3_h17_float_values_d3_h17]
+wind_b_k_value_d3_h17 = [round(item*1.944,1) for item in wind_b_d3_h17_float_values_d3_h17]
 wind_g_value_d3_h17= [float(match.group(1)) for line in found_d3_h17 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h17 = [item for item in wind_g_value_d3_h17 if isinstance(item, float)]
-wind_g_k_value_d3_h17=[item * 1.944 for item in wind_g_float_values_d3_h17]
+wind_g_k_value_d3_h17=[round(item*1.944,1) for item in wind_g_float_values_d3_h17]
 wind_bf_value_d3_h17= [int(match.group(1)) for line in found_d3_h17 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h17)
 #print("wind direction: ",wind_d_value_d3_h17)
@@ -1574,10 +1574,10 @@ celsius_value_d3_h18 = [float(match.group(1)) for line in found_d3_h18 if (match
 wind_d_value_d3_h18= [str(match.group(1)) for line in found_d3_h18 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h18 = [float(match.group(1)) for line in found_d3_h18 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h18_float_values_d3_h18 = [item for item in wind_b_value_d3_h18 if isinstance(item, float)]
-wind_b_k_value_d3_h18 = [item * 1.944 for item in wind_b_d3_h18_float_values_d3_h18]
+wind_b_k_value_d3_h18 = [round(item*1.944,1) for item in wind_b_d3_h18_float_values_d3_h18]
 wind_g_value_d3_h18= [float(match.group(1)) for line in found_d3_h18 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h18 = [item for item in wind_g_value_d3_h18 if isinstance(item, float)]
-wind_g_k_value_d3_h18=[item * 1.944 for item in wind_g_float_values_d3_h18]
+wind_g_k_value_d3_h18=[round(item*1.944,1) for item in wind_g_float_values_d3_h18]
 wind_bf_value_d3_h18= [int(match.group(1)) for line in found_d3_h18 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h18)
 #print("wind direction: ",wind_d_value_d3_h18)
@@ -1604,10 +1604,10 @@ celsius_value_d3_h19 = [float(match.group(1)) for line in found_d3_h19 if (match
 wind_d_value_d3_h19= [str(match.group(1)) for line in found_d3_h19 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h19 = [float(match.group(1)) for line in found_d3_h19 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h19_float_values_d3_h19 = [item for item in wind_b_value_d3_h19 if isinstance(item, float)]
-wind_b_k_value_d3_h19 = [item * 1.944 for item in wind_b_d3_h19_float_values_d3_h19]
+wind_b_k_value_d3_h19 = [round(item*1.944,1) for item in wind_b_d3_h19_float_values_d3_h19]
 wind_g_value_d3_h19= [float(match.group(1)) for line in found_d3_h19 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h19 = [item for item in wind_g_value_d3_h19 if isinstance(item, float)]
-wind_g_k_value_d3_h19=[item * 1.944 for item in wind_g_float_values_d3_h19]
+wind_g_k_value_d3_h19=[round(item*1.944,1) for item in wind_g_float_values_d3_h19]
 wind_bf_value_d3_h19= [int(match.group(1)) for line in found_d3_h19 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h19)
 #print("wind direction: ",wind_d_value_d3_h19)
@@ -1635,10 +1635,10 @@ celsius_value_d3_h20 = [float(match.group(1)) for line in found_d3_h20 if (match
 wind_d_value_d3_h20= [str(match.group(1)) for line in found_d3_h20 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h20 = [float(match.group(1)) for line in found_d3_h20 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h20_float_values_d3_h20 = [item for item in wind_b_value_d3_h20 if isinstance(item, float)]
-wind_b_k_value_d3_h20 = [item * 1.944 for item in wind_b_d3_h20_float_values_d3_h20]
+wind_b_k_value_d3_h20 = [round(item*1.944,1) for item in wind_b_d3_h20_float_values_d3_h20]
 wind_g_value_d3_h20= [float(match.group(1)) for line in found_d3_h20 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h20 = [item for item in wind_g_value_d3_h20 if isinstance(item, float)]
-wind_g_k_value_d3_h20=[item * 1.944 for item in wind_g_float_values_d3_h20]
+wind_g_k_value_d3_h20=[round(item*1.944,1) for item in wind_g_float_values_d3_h20]
 wind_bf_value_d3_h20= [int(match.group(1)) for line in found_d3_h20 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h20)
 #print("wind direction: ",wind_d_value_d3_h20)
@@ -1666,10 +1666,10 @@ celsius_value_d3_h21 = [float(match.group(1)) for line in found_d3_h21 if (match
 wind_d_value_d3_h21= [str(match.group(1)) for line in found_d3_h21 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h21 = [float(match.group(1)) for line in found_d3_h21 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h21_float_values_d3_h21 = [item for item in wind_b_value_d3_h21 if isinstance(item, float)]
-wind_b_k_value_d3_h21 = [item * 1.944 for item in wind_b_d3_h21_float_values_d3_h21]
+wind_b_k_value_d3_h21 = [round(item*1.944,1) for item in wind_b_d3_h21_float_values_d3_h21]
 wind_g_value_d3_h21= [float(match.group(1)) for line in found_d3_h21 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h21 = [item for item in wind_g_value_d3_h21 if isinstance(item, float)]
-wind_g_k_value_d3_h21=[item * 1.944 for item in wind_g_float_values_d3_h21]
+wind_g_k_value_d3_h21=[round(item*1.944,1) for item in wind_g_float_values_d3_h21]
 wind_bf_value_d3_h21= [int(match.group(1)) for line in found_d3_h21 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h21)
 #print("wind direction: ",wind_d_value_d3_h21)
@@ -1697,10 +1697,10 @@ celsius_value_d3_h22 = [float(match.group(1)) for line in found_d3_h22 if (match
 wind_d_value_d3_h22= [str(match.group(1)) for line in found_d3_h22 if (match := wind_d_pattern.search(line))]
 wind_b_value_d3_h22 = [float(match.group(1)) for line in found_d3_h22 if (match := wind_b_pattern.search(line))]
 wind_b_d3_h22_float_values_d3_h22 = [item for item in wind_b_value_d3_h22 if isinstance(item, float)]
-wind_b_k_value_d3_h22 = [item * 1.944 for item in wind_b_d3_h22_float_values_d3_h22]
+wind_b_k_value_d3_h22 = [round(item*1.944,1) for item in wind_b_d3_h22_float_values_d3_h22]
 wind_g_value_d3_h22= [float(match.group(1)) for line in found_d3_h22 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d3_h22 = [item for item in wind_g_value_d3_h22 if isinstance(item, float)]
-wind_g_k_value_d3_h22=[item * 1.944 for item in wind_g_float_values_d3_h22]
+wind_g_k_value_d3_h22=[round(item*1.944,1) for item in wind_g_float_values_d3_h22]
 wind_bf_value_d3_h22= [int(match.group(1)) for line in found_d3_h22 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d3_h22)
 #print("wind direction: ",wind_d_value_d3_h22)
@@ -1728,10 +1728,10 @@ celsius_value_d4_h1 = [float(match.group(1)) for line in found_d4_h1 if (match :
 wind_d_value_d4_h1= [str(match.group(1)) for line in found_d4_h1 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h1 = [float(match.group(1)) for line in found_d4_h1 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h1_float_values_d4_h1 = [item for item in wind_b_value_d4_h1 if isinstance(item, float)]
-wind_b_k_value_d4_h1 = [item * 1.944 for item in wind_b_d4_h1_float_values_d4_h1]
+wind_b_k_value_d4_h1 = [round(item*1.944,1) for item in wind_b_d4_h1_float_values_d4_h1]
 wind_g_value_d4_h1= [float(match.group(1)) for line in found_d4_h1 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h1 = [item for item in wind_g_value_d4_h1 if isinstance(item, float)]
-wind_g_k_value_d4_h1=[item * 1.944 for item in wind_g_float_values_d4_h1]
+wind_g_k_value_d4_h1=[round(item*1.944,1) for item in wind_g_float_values_d4_h1]
 wind_bf_value_d4_h1= [int(match.group(1)) for line in found_d4_h1 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h1)
 #print("wind direction: ",wind_d_value_d4_h1)
@@ -1759,10 +1759,10 @@ celsius_value_d4_h2 = [float(match.group(1)) for line in found_d4_h2 if (match :
 wind_d_value_d4_h2= [str(match.group(1)) for line in found_d4_h2 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h2 = [float(match.group(1)) for line in found_d4_h2 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h2_float_values_d4_h2 = [item for item in wind_b_value_d4_h2 if isinstance(item, float)]
-wind_b_k_value_d4_h2 = [item * 1.944 for item in wind_b_d4_h2_float_values_d4_h2]
+wind_b_k_value_d4_h2 = [round(item*1.944,1) for item in wind_b_d4_h2_float_values_d4_h2]
 wind_g_value_d4_h2= [float(match.group(1)) for line in found_d4_h2 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h2 = [item for item in wind_g_value_d4_h2 if isinstance(item, float)]
-wind_g_k_value_d4_h2=[item * 1.944 for item in wind_g_float_values_d4_h2]
+wind_g_k_value_d4_h2=[round(item*1.944,1) for item in wind_g_float_values_d4_h2]
 wind_bf_value_d4_h2= [int(match.group(1)) for line in found_d4_h2 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h2)
 #print("wind direction: ",wind_d_value_d4_h2)
@@ -1790,10 +1790,10 @@ celsius_value_d4_h3 = [float(match.group(1)) for line in found_d4_h3 if (match :
 wind_d_value_d4_h3= [str(match.group(1)) for line in found_d4_h3 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h3 = [float(match.group(1)) for line in found_d4_h3 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h3_float_values_d4_h3 = [item for item in wind_b_value_d4_h3 if isinstance(item, float)]
-wind_b_k_value_d4_h3 = [item * 1.944 for item in wind_b_d4_h3_float_values_d4_h3]
+wind_b_k_value_d4_h3 = [round(item*1.944,1) for item in wind_b_d4_h3_float_values_d4_h3]
 wind_g_value_d4_h3= [float(match.group(1)) for line in found_d4_h3 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h3 = [item for item in wind_g_value_d4_h3 if isinstance(item, float)]
-wind_g_k_value_d4_h3=[item * 1.944 for item in wind_g_float_values_d4_h3]
+wind_g_k_value_d4_h3=[round(item*1.944,1) for item in wind_g_float_values_d4_h3]
 wind_bf_value_d4_h3= [int(match.group(1)) for line in found_d4_h3 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h3)
 #print("wind direction: ",wind_d_value_d4_h3)
@@ -1821,10 +1821,10 @@ celsius_value_d4_h4 = [float(match.group(1)) for line in found_d4_h4 if (match :
 wind_d_value_d4_h4= [str(match.group(1)) for line in found_d4_h4 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h4 = [float(match.group(1)) for line in found_d4_h4 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h4_float_values_d4_h4 = [item for item in wind_b_value_d4_h4 if isinstance(item, float)]
-wind_b_k_value_d4_h4 = [item * 1.944 for item in wind_b_d4_h4_float_values_d4_h4]
+wind_b_k_value_d4_h4 = [round(item*1.944,1) for item in wind_b_d4_h4_float_values_d4_h4]
 wind_g_value_d4_h4= [float(match.group(1)) for line in found_d4_h4 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h4 = [item for item in wind_g_value_d4_h4 if isinstance(item, float)]
-wind_g_k_value_d4_h4=[item * 1.944 for item in wind_g_float_values_d4_h4]
+wind_g_k_value_d4_h4=[round(item*1.944,1) for item in wind_g_float_values_d4_h4]
 wind_bf_value_d4_h4= [int(match.group(1)) for line in found_d4_h4 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h4)
 #print("wind direction: ",wind_d_value_d4_h4)
@@ -1852,10 +1852,10 @@ celsius_value_d4_h5 = [float(match.group(1)) for line in found_d4_h5 if (match :
 wind_d_value_d4_h5= [str(match.group(1)) for line in found_d4_h5 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h5 = [float(match.group(1)) for line in found_d4_h5 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h5_float_values_d4_h5 = [item for item in wind_b_value_d4_h5 if isinstance(item, float)]
-wind_b_k_value_d4_h5 = [item * 1.944 for item in wind_b_d4_h5_float_values_d4_h5]
+wind_b_k_value_d4_h5 = [round(item*1.944,1) for item in wind_b_d4_h5_float_values_d4_h5]
 wind_g_value_d4_h5= [float(match.group(1)) for line in found_d4_h5 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h5 = [item for item in wind_g_value_d4_h5 if isinstance(item, float)]
-wind_g_k_value_d4_h5=[item * 1.944 for item in wind_g_float_values_d4_h5]
+wind_g_k_value_d4_h5=[round(item*1.944,1) for item in wind_g_float_values_d4_h5]
 wind_bf_value_d4_h5= [int(match.group(1)) for line in found_d4_h5 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h5)
 #print("wind direction: ",wind_d_value_d4_h5)
@@ -1883,10 +1883,10 @@ celsius_value_d4_h6 = [float(match.group(1)) for line in found_d4_h6 if (match :
 wind_d_value_d4_h6= [str(match.group(1)) for line in found_d4_h6 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h6 = [float(match.group(1)) for line in found_d4_h6 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h6_float_values_d4_h6 = [item for item in wind_b_value_d4_h6 if isinstance(item, float)]
-wind_b_k_value_d4_h6 = [item * 1.944 for item in wind_b_d4_h6_float_values_d4_h6]
+wind_b_k_value_d4_h6 = [round(item*1.944,1) for item in wind_b_d4_h6_float_values_d4_h6]
 wind_g_value_d4_h6= [float(match.group(1)) for line in found_d4_h6 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h6 = [item for item in wind_g_value_d4_h6 if isinstance(item, float)]
-wind_g_k_value_d4_h6=[item * 1.944 for item in wind_g_float_values_d4_h6]
+wind_g_k_value_d4_h6=[round(item*1.944,1) for item in wind_g_float_values_d4_h6]
 wind_bf_value_d4_h6= [int(match.group(1)) for line in found_d4_h6 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h6)
 #print("wind direction: ",wind_d_value_d4_h6)
@@ -1914,10 +1914,10 @@ celsius_value_d4_h7 = [float(match.group(1)) for line in found_d4_h7 if (match :
 wind_d_value_d4_h7= [str(match.group(1)) for line in found_d4_h7 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h7 = [float(match.group(1)) for line in found_d4_h7 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h7_float_values_d4_h7 = [item for item in wind_b_value_d4_h7 if isinstance(item, float)]
-wind_b_k_value_d4_h7 = [item * 1.944 for item in wind_b_d4_h7_float_values_d4_h7]
+wind_b_k_value_d4_h7 = [round(item*1.944,1) for item in wind_b_d4_h7_float_values_d4_h7]
 wind_g_value_d4_h7= [float(match.group(1)) for line in found_d4_h7 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h7 = [item for item in wind_g_value_d4_h7 if isinstance(item, float)]
-wind_g_k_value_d4_h7=[item * 1.944 for item in wind_g_float_values_d4_h7]
+wind_g_k_value_d4_h7=[round(item*1.944,1) for item in wind_g_float_values_d4_h7]
 wind_bf_value_d4_h7= [int(match.group(1)) for line in found_d4_h7 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h7)
 #print("wind direction: ",wind_d_value_d4_h7)
@@ -1945,10 +1945,10 @@ celsius_value_d4_h8 = [float(match.group(1)) for line in found_d4_h8 if (match :
 wind_d_value_d4_h8= [str(match.group(1)) for line in found_d4_h8 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h8 = [float(match.group(1)) for line in found_d4_h8 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h8_float_values_d4_h8 = [item for item in wind_b_value_d4_h8 if isinstance(item, float)]
-wind_b_k_value_d4_h8 = [item * 1.944 for item in wind_b_d4_h8_float_values_d4_h8]
+wind_b_k_value_d4_h8 = [round(item*1.944,1) for item in wind_b_d4_h8_float_values_d4_h8]
 wind_g_value_d4_h8= [float(match.group(1)) for line in found_d4_h8 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h8 = [item for item in wind_g_value_d4_h8 if isinstance(item, float)]
-wind_g_k_value_d4_h8=[item * 1.944 for item in wind_g_float_values_d4_h8]
+wind_g_k_value_d4_h8=[round(item*1.944,1) for item in wind_g_float_values_d4_h8]
 wind_bf_value_d4_h8= [int(match.group(1)) for line in found_d4_h8 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h8)
 #print("wind direction: ",wind_d_value_d4_h8)
@@ -1976,10 +1976,10 @@ celsius_value_d4_h9 = [float(match.group(1)) for line in found_d4_h9 if (match :
 wind_d_value_d4_h9= [str(match.group(1)) for line in found_d4_h9 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h9 = [float(match.group(1)) for line in found_d4_h9 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h9_float_values_d4_h9 = [item for item in wind_b_value_d4_h9 if isinstance(item, float)]
-wind_b_k_value_d4_h9 = [item * 1.944 for item in wind_b_d4_h9_float_values_d4_h9]
+wind_b_k_value_d4_h9 = [round(item*1.944,1) for item in wind_b_d4_h9_float_values_d4_h9]
 wind_g_value_d4_h9= [float(match.group(1)) for line in found_d4_h9 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h9 = [item for item in wind_g_value_d4_h9 if isinstance(item, float)]
-wind_g_k_value_d4_h9=[item * 1.944 for item in wind_g_float_values_d4_h9]
+wind_g_k_value_d4_h9=[round(item*1.944,1) for item in wind_g_float_values_d4_h9]
 wind_bf_value_d4_h9= [int(match.group(1)) for line in found_d4_h9 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h9)
 #print("wind direction: ",wind_d_value_d4_h9)
@@ -2007,10 +2007,10 @@ celsius_value_d4_h10 = [float(match.group(1)) for line in found_d4_h10 if (match
 wind_d_value_d4_h10= [str(match.group(1)) for line in found_d4_h10 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h10 = [float(match.group(1)) for line in found_d4_h10 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h10_float_values_d4_h10 = [item for item in wind_b_value_d4_h10 if isinstance(item, float)]
-wind_b_k_value_d4_h10 = [item * 1.944 for item in wind_b_d4_h10_float_values_d4_h10]
+wind_b_k_value_d4_h10 = [round(item*1.944,1) for item in wind_b_d4_h10_float_values_d4_h10]
 wind_g_value_d4_h10= [float(match.group(1)) for line in found_d4_h10 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h10 = [item for item in wind_g_value_d4_h10 if isinstance(item, float)]
-wind_g_k_value_d4_h10=[item * 1.944 for item in wind_g_float_values_d4_h10]
+wind_g_k_value_d4_h10=[round(item*1.944,1) for item in wind_g_float_values_d4_h10]
 wind_bf_value_d4_h10= [int(match.group(1)) for line in found_d4_h10 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h10)
 #print("wind direction: ",wind_d_value_d4_h10)
@@ -2038,10 +2038,10 @@ celsius_value_d4_h11 = [float(match.group(1)) for line in found_d4_h11 if (match
 wind_d_value_d4_h11= [str(match.group(1)) for line in found_d4_h11 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h11 = [float(match.group(1)) for line in found_d4_h11 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h11_float_values_d4_h11 = [item for item in wind_b_value_d4_h11 if isinstance(item, float)]
-wind_b_k_value_d4_h11 = [item * 1.944 for item in wind_b_d4_h11_float_values_d4_h11]
+wind_b_k_value_d4_h11 = [round(item*1.944,1) for item in wind_b_d4_h11_float_values_d4_h11]
 wind_g_value_d4_h11= [float(match.group(1)) for line in found_d4_h11 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h11 = [item for item in wind_g_value_d4_h11 if isinstance(item, float)]
-wind_g_k_value_d4_h11=[item * 1.944 for item in wind_g_float_values_d4_h11]
+wind_g_k_value_d4_h11=[round(item*1.944,1) for item in wind_g_float_values_d4_h11]
 wind_bf_value_d4_h11= [int(match.group(1)) for line in found_d4_h11 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h11)
 #print("wind direction: ",wind_d_value_d4_h11)
@@ -2069,10 +2069,10 @@ celsius_value_d4_h12 = [float(match.group(1)) for line in found_d4_h12 if (match
 wind_d_value_d4_h12= [str(match.group(1)) for line in found_d4_h12 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h12 = [float(match.group(1)) for line in found_d4_h12 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h12_float_values_d4_h12 = [item for item in wind_b_value_d4_h12 if isinstance(item, float)]
-wind_b_k_value_d4_h12 = [item * 1.944 for item in wind_b_d4_h12_float_values_d4_h12]
+wind_b_k_value_d4_h12 = [round(item*1.944,1) for item in wind_b_d4_h12_float_values_d4_h12]
 wind_g_value_d4_h12= [float(match.group(1)) for line in found_d4_h12 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h12 = [item for item in wind_g_value_d4_h12 if isinstance(item, float)]
-wind_g_k_value_d4_h12=[item * 1.944 for item in wind_g_float_values_d4_h12]
+wind_g_k_value_d4_h12=[round(item*1.944,1) for item in wind_g_float_values_d4_h12]
 wind_bf_value_d4_h12= [int(match.group(1)) for line in found_d4_h12 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h12)
 #print("wind direction: ",wind_d_value_d4_h12)
@@ -2100,10 +2100,10 @@ celsius_value_d4_h13 = [float(match.group(1)) for line in found_d4_h13 if (match
 wind_d_value_d4_h13= [str(match.group(1)) for line in found_d4_h13 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h13 = [float(match.group(1)) for line in found_d4_h13 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h13_float_values_d4_h13 = [item for item in wind_b_value_d4_h13 if isinstance(item, float)]
-wind_b_k_value_d4_h13 = [item * 1.944 for item in wind_b_d4_h13_float_values_d4_h13]
+wind_b_k_value_d4_h13 = [round(item*1.944,1) for item in wind_b_d4_h13_float_values_d4_h13]
 wind_g_value_d4_h13= [float(match.group(1)) for line in found_d4_h13 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h13 = [item for item in wind_g_value_d4_h13 if isinstance(item, float)]
-wind_g_k_value_d4_h13=[item * 1.944 for item in wind_g_float_values_d4_h13]
+wind_g_k_value_d4_h13=[round(item*1.944,1) for item in wind_g_float_values_d4_h13]
 wind_bf_value_d4_h13= [int(match.group(1)) for line in found_d4_h13 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h13)
 #print("wind direction: ",wind_d_value_d4_h13)
@@ -2131,10 +2131,10 @@ celsius_value_d4_h14 = [float(match.group(1)) for line in found_d4_h14 if (match
 wind_d_value_d4_h14= [str(match.group(1)) for line in found_d4_h14 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h14 = [float(match.group(1)) for line in found_d4_h14 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h14_float_values_d4_h14 = [item for item in wind_b_value_d4_h14 if isinstance(item, float)]
-wind_b_k_value_d4_h14 = [item * 1.944 for item in wind_b_d4_h14_float_values_d4_h14]
+wind_b_k_value_d4_h14 = [round(item*1.944,1) for item in wind_b_d4_h14_float_values_d4_h14]
 wind_g_value_d4_h14= [float(match.group(1)) for line in found_d4_h14 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h14 = [item for item in wind_g_value_d4_h14 if isinstance(item, float)]
-wind_g_k_value_d4_h14=[item * 1.944 for item in wind_g_float_values_d4_h14]
+wind_g_k_value_d4_h14=[round(item*1.944,1) for item in wind_g_float_values_d4_h14]
 wind_bf_value_d4_h14= [int(match.group(1)) for line in found_d4_h14 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h14)
 #print("wind direction: ",wind_d_value_d4_h14)
@@ -2162,10 +2162,10 @@ celsius_value_d4_h15 = [float(match.group(1)) for line in found_d4_h15 if (match
 wind_d_value_d4_h15= [str(match.group(1)) for line in found_d4_h15 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h15 = [float(match.group(1)) for line in found_d4_h15 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h15_float_values_d4_h15 = [item for item in wind_b_value_d4_h15 if isinstance(item, float)]
-wind_b_k_value_d4_h15 = [item * 1.944 for item in wind_b_d4_h15_float_values_d4_h15]
+wind_b_k_value_d4_h15 = [round(item*1.944,1) for item in wind_b_d4_h15_float_values_d4_h15]
 wind_g_value_d4_h15= [float(match.group(1)) for line in found_d4_h15 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h15 = [item for item in wind_g_value_d4_h15 if isinstance(item, float)]
-wind_g_k_value_d4_h15=[item * 1.944 for item in wind_g_float_values_d4_h15]
+wind_g_k_value_d4_h15=[round(item*1.944,1) for item in wind_g_float_values_d4_h15]
 wind_bf_value_d4_h15= [int(match.group(1)) for line in found_d4_h15 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h15)
 #print("wind direction: ",wind_d_value_d4_h15)
@@ -2193,10 +2193,10 @@ celsius_value_d4_h16 = [float(match.group(1)) for line in found_d4_h16 if (match
 wind_d_value_d4_h16= [str(match.group(1)) for line in found_d4_h16 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h16 = [float(match.group(1)) for line in found_d4_h16 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h16_float_values_d4_h16 = [item for item in wind_b_value_d4_h16 if isinstance(item, float)]
-wind_b_k_value_d4_h16 = [item * 1.944 for item in wind_b_d4_h16_float_values_d4_h16]
+wind_b_k_value_d4_h16 = [round(item*1.944,1) for item in wind_b_d4_h16_float_values_d4_h16]
 wind_g_value_d4_h16= [float(match.group(1)) for line in found_d4_h16 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h16 = [item for item in wind_g_value_d4_h16 if isinstance(item, float)]
-wind_g_k_value_d4_h16=[item * 1.944 for item in wind_g_float_values_d4_h16]
+wind_g_k_value_d4_h16=[round(item*1.944,1) for item in wind_g_float_values_d4_h16]
 wind_bf_value_d4_h16= [int(match.group(1)) for line in found_d4_h16 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h16)
 #print("wind direction: ",wind_d_value_d4_h16)
@@ -2224,10 +2224,10 @@ celsius_value_d4_h17 = [float(match.group(1)) for line in found_d4_h17 if (match
 wind_d_value_d4_h17= [str(match.group(1)) for line in found_d4_h17 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h17 = [float(match.group(1)) for line in found_d4_h17 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h17_float_values_d4_h17 = [item for item in wind_b_value_d4_h17 if isinstance(item, float)]
-wind_b_k_value_d4_h17 = [item * 1.944 for item in wind_b_d4_h17_float_values_d4_h17]
+wind_b_k_value_d4_h17 = [round(item*1.944,1) for item in wind_b_d4_h17_float_values_d4_h17]
 wind_g_value_d4_h17= [float(match.group(1)) for line in found_d4_h17 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h17 = [item for item in wind_g_value_d4_h17 if isinstance(item, float)]
-wind_g_k_value_d4_h17=[item * 1.944 for item in wind_g_float_values_d4_h17]
+wind_g_k_value_d4_h17=[round(item*1.944,1) for item in wind_g_float_values_d4_h17]
 wind_bf_value_d4_h17= [int(match.group(1)) for line in found_d4_h17 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h17)
 #print("wind direction: ",wind_d_value_d4_h17)
@@ -2255,10 +2255,10 @@ celsius_value_d4_h18 = [float(match.group(1)) for line in found_d4_h18 if (match
 wind_d_value_d4_h18= [str(match.group(1)) for line in found_d4_h18 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h18 = [float(match.group(1)) for line in found_d4_h18 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h18_float_values_d4_h18 = [item for item in wind_b_value_d4_h18 if isinstance(item, float)]
-wind_b_k_value_d4_h18 = [item * 1.944 for item in wind_b_d4_h18_float_values_d4_h18]
+wind_b_k_value_d4_h18 = [round(item*1.944,1) for item in wind_b_d4_h18_float_values_d4_h18]
 wind_g_value_d4_h18= [float(match.group(1)) for line in found_d4_h18 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h18 = [item for item in wind_g_value_d4_h18 if isinstance(item, float)]
-wind_g_k_value_d4_h18=[item * 1.944 for item in wind_g_float_values_d4_h18]
+wind_g_k_value_d4_h18=[round(item*1.944,1) for item in wind_g_float_values_d4_h18]
 wind_bf_value_d4_h18= [int(match.group(1)) for line in found_d4_h18 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h18)
 #print("wind direction: ",wind_d_value_d4_h18)
@@ -2286,10 +2286,10 @@ celsius_value_d4_h19 = [float(match.group(1)) for line in found_d4_h19 if (match
 wind_d_value_d4_h19= [str(match.group(1)) for line in found_d4_h19 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h19 = [float(match.group(1)) for line in found_d4_h19 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h19_float_values_d4_h19 = [item for item in wind_b_value_d4_h19 if isinstance(item, float)]
-wind_b_k_value_d4_h19 = [item * 1.944 for item in wind_b_d4_h19_float_values_d4_h19]
+wind_b_k_value_d4_h19 = [round(item*1.944,1) for item in wind_b_d4_h19_float_values_d4_h19]
 wind_g_value_d4_h19= [float(match.group(1)) for line in found_d4_h19 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h19 = [item for item in wind_g_value_d4_h19 if isinstance(item, float)]
-wind_g_k_value_d4_h19=[item * 1.944 for item in wind_g_float_values_d4_h19]
+wind_g_k_value_d4_h19=[round(item*1.944,1) for item in wind_g_float_values_d4_h19]
 wind_bf_value_d4_h19= [int(match.group(1)) for line in found_d4_h19 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h19)
 #print("wind direction: ",wind_d_value_d4_h19)
@@ -2317,10 +2317,10 @@ celsius_value_d4_h20 = [float(match.group(1)) for line in found_d4_h20 if (match
 wind_d_value_d4_h20= [str(match.group(1)) for line in found_d4_h20 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h20 = [float(match.group(1)) for line in found_d4_h20 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h20_float_values_d4_h20 = [item for item in wind_b_value_d4_h20 if isinstance(item, float)]
-wind_b_k_value_d4_h20 = [item * 1.944 for item in wind_b_d4_h20_float_values_d4_h20]
+wind_b_k_value_d4_h20 = [round(item*1.944,1) for item in wind_b_d4_h20_float_values_d4_h20]
 wind_g_value_d4_h20= [float(match.group(1)) for line in found_d4_h20 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h20 = [item for item in wind_g_value_d4_h20 if isinstance(item, float)]
-wind_g_k_value_d4_h20=[item * 1.944 for item in wind_g_float_values_d4_h20]
+wind_g_k_value_d4_h20=[round(item*1.944,1) for item in wind_g_float_values_d4_h20]
 wind_bf_value_d4_h20= [int(match.group(1)) for line in found_d4_h20 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h20)
 #print("wind direction: ",wind_d_value_d4_h20)
@@ -2348,10 +2348,10 @@ celsius_value_d4_h21 = [float(match.group(1)) for line in found_d4_h21 if (match
 wind_d_value_d4_h21= [str(match.group(1)) for line in found_d4_h21 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h21 = [float(match.group(1)) for line in found_d4_h21 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h21_float_values_d4_h21 = [item for item in wind_b_value_d4_h21 if isinstance(item, float)]
-wind_b_k_value_d4_h21 = [item * 1.944 for item in wind_b_d4_h21_float_values_d4_h21]
+wind_b_k_value_d4_h21 = [round(item*1.944,1) for item in wind_b_d4_h21_float_values_d4_h21]
 wind_g_value_d4_h21= [float(match.group(1)) for line in found_d4_h21 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h21 = [item for item in wind_g_value_d4_h21 if isinstance(item, float)]
-wind_g_k_value_d4_h21=[item * 1.944 for item in wind_g_float_values_d4_h21]
+wind_g_k_value_d4_h21=[round(item*1.944,1) for item in wind_g_float_values_d4_h21]
 wind_bf_value_d4_h21= [int(match.group(1)) for line in found_d4_h21 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h21)
 #print("wind direction: ",wind_d_value_d4_h21)
@@ -2379,10 +2379,10 @@ celsius_value_d4_h22 = [float(match.group(1)) for line in found_d4_h22 if (match
 wind_d_value_d4_h22= [str(match.group(1)) for line in found_d4_h22 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h22 = [float(match.group(1)) for line in found_d4_h22 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h22_float_values_d4_h22 = [item for item in wind_b_value_d4_h22 if isinstance(item, float)]
-wind_b_k_value_d4_h22 = [item * 1.944 for item in wind_b_d4_h22_float_values_d4_h22]
+wind_b_k_value_d4_h22 = [round(item*1.944,1) for item in wind_b_d4_h22_float_values_d4_h22]
 wind_g_value_d4_h22= [float(match.group(1)) for line in found_d4_h22 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h22 = [item for item in wind_g_value_d4_h22 if isinstance(item, float)]
-wind_g_k_value_d4_h22=[item * 1.944 for item in wind_g_float_values_d4_h22]
+wind_g_k_value_d4_h22=[round(item*1.944,1) for item in wind_g_float_values_d4_h22]
 wind_bf_value_d4_h22= [int(match.group(1)) for line in found_d4_h22 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h22)
 #print("wind direction: ",wind_d_value_d4_h22)
@@ -2410,10 +2410,10 @@ celsius_value_d4_h23 = [float(match.group(1)) for line in found_d4_h23 if (match
 wind_d_value_d4_h23= [str(match.group(1)) for line in found_d4_h23 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h23 = [float(match.group(1)) for line in found_d4_h23 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h23_float_values_d4_h23 = [item for item in wind_b_value_d4_h23 if isinstance(item, float)]
-wind_b_k_value_d4_h23 = [item * 1.944 for item in wind_b_d4_h23_float_values_d4_h23]
+wind_b_k_value_d4_h23 = [round(item*1.944,1) for item in wind_b_d4_h23_float_values_d4_h23]
 wind_g_value_d4_h23= [float(match.group(1)) for line in found_d4_h23 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h23 = [item for item in wind_g_value_d4_h23 if isinstance(item, float)]
-wind_g_k_value_d4_h23=[item * 1.944 for item in wind_g_float_values_d4_h23]
+wind_g_k_value_d4_h23=[round(item*1.944,1) for item in wind_g_float_values_d4_h23]
 wind_bf_value_d4_h23= [int(match.group(1)) for line in found_d4_h23 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h23)
 #print("wind direction: ",wind_d_value_d4_h23)
@@ -2441,10 +2441,10 @@ celsius_value_d4_h24 = [float(match.group(1)) for line in found_d4_h24 if (match
 wind_d_value_d4_h24= [str(match.group(1)) for line in found_d4_h24 if (match := wind_d_pattern.search(line))]
 wind_b_value_d4_h24 = [float(match.group(1)) for line in found_d4_h24 if (match := wind_b_pattern.search(line))]
 wind_b_d4_h24_float_values_d4_h24 = [item for item in wind_b_value_d4_h24 if isinstance(item, float)]
-wind_b_k_value_d4_h24 = [item * 1.944 for item in wind_b_d4_h24_float_values_d4_h24]
+wind_b_k_value_d4_h24 = [round(item*1.944,1) for item in wind_b_d4_h24_float_values_d4_h24]
 wind_g_value_d4_h24= [float(match.group(1)) for line in found_d4_h24 if (match := wind_g_pattern.search(line))]
 wind_g_float_values_d4_h24 = [item for item in wind_g_value_d4_h24 if isinstance(item, float)]
-wind_g_k_value_d4_h24=[item * 1.944 for item in wind_g_float_values_d4_h24]
+wind_g_k_value_d4_h24=[round(item*1.944,1) for item in wind_g_float_values_d4_h24]
 wind_bf_value_d4_h24= [int(match.group(1)) for line in found_d4_h24 if (match := wind_bf_pattern.search(line))]
 #print("Celsius values:", celsius_value_d4_h24)
 #print("wind direction: ",wind_d_value_d4_h24)

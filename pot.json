@@ -1,0 +1,7278 @@
+[
+  {
+    "key": "__name__",
+    "value": "__main__"
+  },
+  {
+    "key": "__doc__",
+    "value": null
+  },
+  {
+    "key": "__package__",
+    "value": ""
+  },
+  {
+    "key": "__loader__",
+    "value": null
+  },
+  {
+    "key": "__spec__",
+    "value": null
+  },
+  {
+    "key": "__file__",
+    "value": "C:\\Users\\Student 2021\\Downloads\\website\\json_runner.py"
+  },
+  {
+    "key": "__cached__",
+    "value": null
+  },
+  {
+    "key": "__builtins__",
+    "value": "<module 'builtins' (built-in)>"
+  },
+  {
+    "key": "json",
+    "value": "<module 'json' from 'C:\\\\Program Files\\\\WindowsApps\\\\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\\\\Lib\\\\json\\\\__init__.py'>"
+  },
+  {
+    "key": "re",
+    "value": "<module 're' from 'C:\\\\Program Files\\\\WindowsApps\\\\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\\\\Lib\\\\re\\\\__init__.py'>"
+  },
+  {
+    "key": "datetime",
+    "value": "<module 'datetime' from 'C:\\\\Program Files\\\\WindowsApps\\\\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\\\\Lib\\\\datetime.py'>"
+  },
+  {
+    "key": "txt_file_path",
+    "value": "output_file.txt"
+  },
+  {
+    "key": "today",
+    "value": "2024-03-15 12:01:38.102534"
+  },
+  {
+    "key": "rounded_today",
+    "value": "2024-03-15 13:00:00"
+  },
+  {
+    "key": "formatted_today",
+    "value": "2024-03-15T13:00:00Z"
+  },
+  {
+    "key": "current_date_time",
+    "value": "2024-03-15T13:00:00Z"
+  },
+  {
+    "key": "search_variable",
+    "value": "from="
+  },
+  {
+    "key": "search_variable2",
+    "value": "to="
+  },
+  {
+    "key": "found_lines_c",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.8\"/>",
+      "<windDirection id=\"dd\" deg=\"303.8\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.0\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.3\"/>",
+      "<globalRadiation value=\"269.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"70.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1004.2\"/>",
+      "<cloudiness id=\"NN\" percent=\"93.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"93.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T12:00:00Z\" to=\"2024-03-15T13:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "file",
+    "value": "<_io.TextIOWrapper name='output_file.txt' mode='r' encoding='cp1252'>"
+  },
+  {
+    "key": "line_number",
+    "value": 2354
+  },
+  {
+    "key": "line",
+    "value": "</weatherdata> \n"
+  },
+  {
+    "key": "celsius_pattern",
+    "value": "re.compile('temperature.*?value=\"(.*?)\"')"
+  },
+  {
+    "key": "wind_d_pattern",
+    "value": "re.compile('windDirection.*?name=\"(.*?)\"')"
+  },
+  {
+    "key": "wind_b_pattern",
+    "value": "re.compile('windSpeed.*?mps=\"(.*?)\"')"
+  },
+  {
+    "key": "wind_bf_pattern",
+    "value": "re.compile('windSpeed.*?beaufort=\"(.*?)\"')"
+  },
+  {
+    "key": "wind_g_pattern",
+    "value": "re.compile('windGust.*?mps=\"(.*?)\"')"
+  },
+  {
+    "key": "match",
+    "value": null
+  },
+  {
+    "key": "celsius_value_c",
+    "value": [
+      9.8
+    ]
+  },
+  {
+    "key": "wind_d_value_c",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_c",
+    "value": [
+      6.0
+    ]
+  },
+  {
+    "key": "wind_b_c_float_values_c",
+    "value": [
+      6.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_c",
+    "value": [
+      11.7
+    ]
+  },
+  {
+    "key": "wind_g_value_c",
+    "value": [
+      13.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_c",
+    "value": [
+      13.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_c",
+    "value": [
+      25.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_c",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "h1",
+    "value": "2024-03-15 14:01:38.102534"
+  },
+  {
+    "key": "rounded_h1",
+    "value": "2024-03-15 14:01:38.102534"
+  },
+  {
+    "key": "rounded_h1_1",
+    "value": "2024-03-15 14:00:00"
+  },
+  {
+    "key": "formatted_h1",
+    "value": "2024-03-15T14:00:00Z"
+  },
+  {
+    "key": "found_h1",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.4\"/>",
+      "<windDirection id=\"dd\" deg=\"296.1\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.3\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.5\"/>",
+      "<globalRadiation value=\"352.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"67.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1005.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"62.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"62.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T13:00:00Z\" to=\"2024-03-15T14:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h1",
+    "value": [
+      10.4
+    ]
+  },
+  {
+    "key": "wind_d_value_h1",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h1",
+    "value": [
+      6.3
+    ]
+  },
+  {
+    "key": "wind_b_h1_float_values_h1",
+    "value": [
+      6.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h1",
+    "value": [
+      12.2
+    ]
+  },
+  {
+    "key": "wind_g_value_h1",
+    "value": [
+      13.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h1",
+    "value": [
+      13.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h1",
+    "value": [
+      26.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_h1",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "h2",
+    "value": "2024-03-15 15:01:38.102534"
+  },
+  {
+    "key": "rounded_h2",
+    "value": "2024-03-15 15:01:38.102534"
+  },
+  {
+    "key": "rounded_h2_1",
+    "value": "2024-03-15 15:00:00"
+  },
+  {
+    "key": "formatted_h2",
+    "value": "2024-03-15T15:00:00Z"
+  },
+  {
+    "key": "found_h2",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.0\"/>",
+      "<windDirection id=\"dd\" deg=\"303.5\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.2\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.5\"/>",
+      "<globalRadiation value=\"402.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"63.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1006.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"25.9\"/>",
+      "<lowClouds id=\"LOW\" percent=\"25.8\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T14:00:00Z\" to=\"2024-03-15T15:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h2",
+    "value": [
+      11.0
+    ]
+  },
+  {
+    "key": "wind_d_value_h2",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h2",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_b_h2_float_values_h2",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h2",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_g_value_h2",
+    "value": [
+      13.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h2",
+    "value": [
+      13.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h2",
+    "value": [
+      26.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_h2",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "h3",
+    "value": "2024-03-15 16:01:38.102534"
+  },
+  {
+    "key": "rounded_h3",
+    "value": "2024-03-15 16:01:38.102534"
+  },
+  {
+    "key": "rounded_h3_1",
+    "value": "2024-03-15 16:00:00"
+  },
+  {
+    "key": "formatted_h3",
+    "value": "2024-03-15T16:00:00Z"
+  },
+  {
+    "key": "found_h3",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.0\"/>",
+      "<windDirection id=\"dd\" deg=\"306.4\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.2\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.3\"/>",
+      "<globalRadiation value=\"344.9\" unit=\"W/m^2\"/>",
+      "<humidity value=\"61.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"12.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"12.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.1\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T15:00:00Z\" to=\"2024-03-15T16:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h3",
+    "value": [
+      11.0
+    ]
+  },
+  {
+    "key": "wind_d_value_h3",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h3",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_b_h3_float_values_h3",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h3",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_g_value_h3",
+    "value": [
+      13.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h3",
+    "value": [
+      13.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h3",
+    "value": [
+      25.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_h3",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "h4",
+    "value": "2024-03-15 17:01:38.102534"
+  },
+  {
+    "key": "rounded_h4",
+    "value": "2024-03-15 17:01:38.102534"
+  },
+  {
+    "key": "rounded_h4_1",
+    "value": "2024-03-15 17:00:00"
+  },
+  {
+    "key": "formatted_h4",
+    "value": "2024-03-15T17:00:00Z"
+  },
+  {
+    "key": "found_h4",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.5\"/>",
+      "<windDirection id=\"dd\" deg=\"311.0\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.9\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"12.6\"/>",
+      "<globalRadiation value=\"231.2\" unit=\"W/m^2\"/>",
+      "<humidity value=\"61.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"9.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"9.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T16:00:00Z\" to=\"2024-03-15T17:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h4",
+    "value": [
+      10.5
+    ]
+  },
+  {
+    "key": "wind_d_value_h4",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h4",
+    "value": [
+      5.9
+    ]
+  },
+  {
+    "key": "wind_b_h4_float_values_h4",
+    "value": [
+      5.9
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h4",
+    "value": [
+      11.5
+    ]
+  },
+  {
+    "key": "wind_g_value_h4",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h4",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h4",
+    "value": [
+      24.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_h4",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "h5",
+    "value": "2024-03-15 18:01:38.102534"
+  },
+  {
+    "key": "rounded_h5",
+    "value": "2024-03-15 18:01:38.102534"
+  },
+  {
+    "key": "rounded_h5_1",
+    "value": "2024-03-15 18:00:00"
+  },
+  {
+    "key": "formatted_h5",
+    "value": "2024-03-15T18:00:00Z"
+  },
+  {
+    "key": "found_h5",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.8\"/>",
+      "<windDirection id=\"dd\" deg=\"310.0\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.8\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"11.3\"/>",
+      "<globalRadiation value=\"101.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"64.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"2.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"2.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T17:00:00Z\" to=\"2024-03-15T18:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h5",
+    "value": [
+      9.8
+    ]
+  },
+  {
+    "key": "wind_d_value_h5",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h5",
+    "value": [
+      4.8
+    ]
+  },
+  {
+    "key": "wind_b_h5_float_values_h5",
+    "value": [
+      4.8
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h5",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_g_value_h5",
+    "value": [
+      11.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h5",
+    "value": [
+      11.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h5",
+    "value": [
+      22.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_h5",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "h6",
+    "value": "2024-03-15 19:01:38.102534"
+  },
+  {
+    "key": "rounded_h6",
+    "value": "2024-03-15 19:01:38.102534"
+  },
+  {
+    "key": "rounded_h6_1",
+    "value": "2024-03-15 19:00:00"
+  },
+  {
+    "key": "formatted_h6",
+    "value": "2024-03-15T19:00:00Z"
+  },
+  {
+    "key": "found_h6",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.9\"/>",
+      "<windDirection id=\"dd\" deg=\"304.2\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.0\"/>",
+      "<globalRadiation value=\"7.2\" unit=\"W/m^2\"/>",
+      "<humidity value=\"69.7\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"13.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"13.6\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T18:00:00Z\" to=\"2024-03-15T19:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h6",
+    "value": [
+      8.9
+    ]
+  },
+  {
+    "key": "wind_d_value_h6",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h6",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_h6_float_values_h6",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h6",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_value_h6",
+    "value": [
+      9.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h6",
+    "value": [
+      9.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h6",
+    "value": [
+      17.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_h6",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "h7",
+    "value": "2024-03-15 20:01:38.102534"
+  },
+  {
+    "key": "rounded_h7",
+    "value": "2024-03-15 20:01:38.102534"
+  },
+  {
+    "key": "rounded_h7_1",
+    "value": "2024-03-15 20:00:00"
+  },
+  {
+    "key": "formatted_h7",
+    "value": "2024-03-15T20:00:00Z"
+  },
+  {
+    "key": "found_h7",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.3\"/>",
+      "<windDirection id=\"dd\" deg=\"302.3\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.1\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.2\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"74.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1012.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"1.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"1.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T19:00:00Z\" to=\"2024-03-15T20:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h7",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_d_value_h7",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h7",
+    "value": [
+      3.1
+    ]
+  },
+  {
+    "key": "wind_b_h7_float_values_h7",
+    "value": [
+      3.1
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h7",
+    "value": [
+      6.0
+    ]
+  },
+  {
+    "key": "wind_g_value_h7",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h7",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h7",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_h7",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "h8",
+    "value": "2024-03-15 21:01:38.102534"
+  },
+  {
+    "key": "rounded_h8",
+    "value": "2024-03-15 21:01:38.102534"
+  },
+  {
+    "key": "rounded_h8_1",
+    "value": "2024-03-15 21:00:00"
+  },
+  {
+    "key": "formatted_h8",
+    "value": "2024-03-15T21:00:00Z"
+  },
+  {
+    "key": "found_h8",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.5\"/>",
+      "<windDirection id=\"dd\" deg=\"310.8\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.0\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"78.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1013.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"0.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T20:00:00Z\" to=\"2024-03-15T21:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h8",
+    "value": [
+      7.5
+    ]
+  },
+  {
+    "key": "wind_d_value_h8",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h8",
+    "value": [
+      3.0
+    ]
+  },
+  {
+    "key": "wind_b_h8_float_values_h8",
+    "value": [
+      3.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h8",
+    "value": [
+      5.8
+    ]
+  },
+  {
+    "key": "wind_g_value_h8",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h8",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h8",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_h8",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "h9",
+    "value": "2024-03-15 22:01:38.102534"
+  },
+  {
+    "key": "rounded_h9",
+    "value": "2024-03-15 22:01:38.102534"
+  },
+  {
+    "key": "rounded_h9_1",
+    "value": "2024-03-15 22:00:00"
+  },
+  {
+    "key": "formatted_h9",
+    "value": "2024-03-15T22:00:00Z"
+  },
+  {
+    "key": "found_h9",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"6.7\"/>",
+      "<windDirection id=\"dd\" deg=\"293.4\" name=\"NW\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.0\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.0\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"80.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1014.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"0.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T21:00:00Z\" to=\"2024-03-15T22:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h9",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_d_value_h9",
+    "value": [
+      "NW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h9",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_h9_float_values_h9",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h9",
+    "value": [
+      3.9
+    ]
+  },
+  {
+    "key": "wind_g_value_h9",
+    "value": [
+      4.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h9",
+    "value": [
+      4.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h9",
+    "value": [
+      7.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_h9",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "h10",
+    "value": "2024-03-15 23:01:38.102534"
+  },
+  {
+    "key": "rounded_h10",
+    "value": "2024-03-15 23:01:38.102534"
+  },
+  {
+    "key": "rounded_h10_1",
+    "value": "2024-03-15 23:00:00"
+  },
+  {
+    "key": "formatted_h10",
+    "value": "2024-03-15T23:00:00Z"
+  },
+  {
+    "key": "found_h10",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"5.9\"/>",
+      "<windDirection id=\"dd\" deg=\"253.0\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.5\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.2\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"82.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"0.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T22:00:00Z\" to=\"2024-03-15T23:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h10",
+    "value": [
+      5.9
+    ]
+  },
+  {
+    "key": "wind_d_value_h10",
+    "value": [
+      "W"
+    ]
+  },
+  {
+    "key": "wind_b_value_h10",
+    "value": [
+      1.5
+    ]
+  },
+  {
+    "key": "wind_b_h10_float_values_h10",
+    "value": [
+      1.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h10",
+    "value": [
+      2.9
+    ]
+  },
+  {
+    "key": "wind_g_value_h10",
+    "value": [
+      3.2
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h10",
+    "value": [
+      3.2
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h10",
+    "value": [
+      6.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_h10",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "h11",
+    "value": "2024-03-16 00:01:38.102534"
+  },
+  {
+    "key": "rounded_h11",
+    "value": "2024-03-16 00:01:38.102534"
+  },
+  {
+    "key": "rounded_h11_1",
+    "value": "2024-03-16 00:00:00"
+  },
+  {
+    "key": "formatted_h11",
+    "value": "2024-03-16T00:00:00Z"
+  },
+  {
+    "key": "found_h11",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"5.4\"/>",
+      "<windDirection id=\"dd\" deg=\"238.6\" name=\"SW\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.2\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"2.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"81.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.7\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"97.7\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-15T23:00:00Z\" to=\"2024-03-16T00:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h11",
+    "value": [
+      5.4
+    ]
+  },
+  {
+    "key": "wind_d_value_h11",
+    "value": [
+      "SW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h11",
+    "value": [
+      1.2
+    ]
+  },
+  {
+    "key": "wind_b_h11_float_values_h11",
+    "value": [
+      1.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h11",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_g_value_h11",
+    "value": [
+      2.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h11",
+    "value": [
+      2.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h11",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_h11",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "h12",
+    "value": "2024-03-16 01:01:38.102534"
+  },
+  {
+    "key": "rounded_h12",
+    "value": "2024-03-16 01:01:38.102534"
+  },
+  {
+    "key": "rounded_h12_1",
+    "value": "2024-03-16 01:00:00"
+  },
+  {
+    "key": "formatted_h12",
+    "value": "2024-03-16T01:00:00Z"
+  },
+  {
+    "key": "found_h12",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"5.3\"/>",
+      "<windDirection id=\"dd\" deg=\"211.0\" name=\"SW\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.5\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"2.6\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"81.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T00:00:00Z\" to=\"2024-03-16T01:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h12",
+    "value": [
+      5.3
+    ]
+  },
+  {
+    "key": "wind_d_value_h12",
+    "value": [
+      "SW"
+    ]
+  },
+  {
+    "key": "wind_b_value_h12",
+    "value": [
+      1.5
+    ]
+  },
+  {
+    "key": "wind_b_h12_float_values_h12",
+    "value": [
+      1.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h12",
+    "value": [
+      2.9
+    ]
+  },
+  {
+    "key": "wind_g_value_h12",
+    "value": [
+      2.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h12",
+    "value": [
+      2.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h12",
+    "value": [
+      5.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_h12",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "h13",
+    "value": "2024-03-16 02:01:38.102534"
+  },
+  {
+    "key": "rounded_h13",
+    "value": "2024-03-16 02:01:38.102534"
+  },
+  {
+    "key": "rounded_h13_1",
+    "value": "2024-03-16 02:00:00"
+  },
+  {
+    "key": "formatted_h13",
+    "value": "2024-03-16T02:00:00Z"
+  },
+  {
+    "key": "found_h13",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"5.2\"/>",
+      "<windDirection id=\"dd\" deg=\"198.5\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.4\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"2.8\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"80.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1016.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"56.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"56.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T01:00:00Z\" to=\"2024-03-16T02:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_h13",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_d_value_h13",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_h13",
+    "value": [
+      1.4
+    ]
+  },
+  {
+    "key": "wind_b_h13_float_values_h13",
+    "value": [
+      1.4
+    ]
+  },
+  {
+    "key": "wind_b_k_value_h13",
+    "value": [
+      2.7
+    ]
+  },
+  {
+    "key": "wind_g_value_h13",
+    "value": [
+      2.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_h13",
+    "value": [
+      2.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_h13",
+    "value": [
+      5.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_h13",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "d2_h1",
+    "value": "2024-03-16 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h1",
+    "value": "2024-03-16 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h1_1",
+    "value": "2024-03-16 03:00:00"
+  },
+  {
+    "key": "formatted_d2_h1",
+    "value": "2024-03-16T03:00:00Z"
+  },
+  {
+    "key": "found_d2_h1",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"4.7\"/>",
+      "<windDirection id=\"dd\" deg=\"187.5\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.7\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.3\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"84.0\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1016.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"54.5\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"54.5\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T02:00:00Z\" to=\"2024-03-16T03:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h1",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h1",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h1",
+    "value": [
+      1.7
+    ]
+  },
+  {
+    "key": "wind_b_d2_h1_float_values_d2_h1",
+    "value": [
+      1.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h1",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h1",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h1",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h1",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h1",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d2_h2",
+    "value": "2024-03-16 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h2",
+    "value": "2024-03-16 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h2_1",
+    "value": "2024-03-16 04:00:00"
+  },
+  {
+    "key": "formatted_d2_h2",
+    "value": "2024-03-16T04:00:00Z"
+  },
+  {
+    "key": "found_d2_h2",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"4.5\"/>",
+      "<windDirection id=\"dd\" deg=\"177.3\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.9\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.1\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"87.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"47.7\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"47.5\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T03:00:00Z\" to=\"2024-03-16T04:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h2",
+    "value": [
+      4.5
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h2",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h2",
+    "value": [
+      1.9
+    ]
+  },
+  {
+    "key": "wind_b_d2_h2_float_values_d2_h2",
+    "value": [
+      1.9
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h2",
+    "value": [
+      3.7
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h2",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h2",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h2",
+    "value": [
+      8.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h2",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d2_h3",
+    "value": "2024-03-16 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h3",
+    "value": "2024-03-16 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h3_1",
+    "value": "2024-03-16 05:00:00"
+  },
+  {
+    "key": "formatted_d2_h3",
+    "value": "2024-03-16T05:00:00Z"
+  },
+  {
+    "key": "found_d2_h3",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"4.7\"/>",
+      "<windDirection id=\"dd\" deg=\"170.4\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.8\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.9\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"88.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1016.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"44.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"8.5\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.2\"/>",
+      "<highClouds id=\"HIGH\" percent=\"39.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"2.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T04:00:00Z\" to=\"2024-03-16T05:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h3",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h3",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h3",
+    "value": [
+      2.8
+    ]
+  },
+  {
+    "key": "wind_b_d2_h3_float_values_d2_h3",
+    "value": [
+      2.8
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h3",
+    "value": [
+      5.4
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h3",
+    "value": [
+      4.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h3",
+    "value": [
+      4.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h3",
+    "value": [
+      9.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h3",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d2_h4",
+    "value": "2024-03-17 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h4",
+    "value": "2024-03-17 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h4_1",
+    "value": "2024-03-17 11:00:00"
+  },
+  {
+    "key": "formatted_d2_h4",
+    "value": "2024-03-17T11:00:00Z"
+  },
+  {
+    "key": "found_d2_h4",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"13.9\"/>",
+      "<windDirection id=\"dd\" deg=\"186.8\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.1\"/>",
+      "<globalRadiation value=\"391.4\" unit=\"W/m^2\"/>",
+      "<humidity value=\"78.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"65.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"42.5\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"31.3\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"10.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T10:00:00Z\" to=\"2024-03-17T11:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h4",
+    "value": [
+      13.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h4",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h4",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_d2_h4_float_values_d2_h4",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h4",
+    "value": [
+      4.5
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h4",
+    "value": [
+      7.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h4",
+    "value": [
+      7.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h4",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h4",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d2_h5",
+    "value": "2024-03-16 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h5",
+    "value": "2024-03-16 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h5_1",
+    "value": "2024-03-16 07:00:00"
+  },
+  {
+    "key": "formatted_d2_h5",
+    "value": "2024-03-16T07:00:00Z"
+  },
+  {
+    "key": "found_d2_h5",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"5.5\"/>",
+      "<windDirection id=\"dd\" deg=\"157.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.6\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.7\"/>",
+      "<globalRadiation value=\"2.8\" unit=\"W/m^2\"/>",
+      "<humidity value=\"89.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"46.3\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"96.3\"/>",
+      "<highClouds id=\"HIGH\" percent=\"94.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"3.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T06:00:00Z\" to=\"2024-03-16T07:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h5",
+    "value": [
+      5.5
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h5",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h5",
+    "value": [
+      3.6
+    ]
+  },
+  {
+    "key": "wind_b_d2_h5_float_values_d2_h5",
+    "value": [
+      3.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h5",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h5",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h5",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h5",
+    "value": [
+      13.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h5",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h6",
+    "value": "2024-03-16 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h6",
+    "value": "2024-03-16 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h6_1",
+    "value": "2024-03-16 08:00:00"
+  },
+  {
+    "key": "formatted_d2_h6",
+    "value": "2024-03-16T08:00:00Z"
+  },
+  {
+    "key": "found_d2_h6",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"6.7\"/>",
+      "<windDirection id=\"dd\" deg=\"143.5\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.7\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.3\"/>",
+      "<globalRadiation value=\"39.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1015.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"97.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"98.1\"/>",
+      "<highClouds id=\"HIGH\" percent=\"99.6\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T07:00:00Z\" to=\"2024-03-16T08:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"11.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h6",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h6",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h6",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_b_d2_h6_float_values_d2_h6",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h6",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h6",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h6",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h6",
+    "value": [
+      16.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h6",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h7",
+    "value": "2024-03-16 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h7",
+    "value": "2024-03-16 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h7_1",
+    "value": "2024-03-16 09:00:00"
+  },
+  {
+    "key": "formatted_d2_h7",
+    "value": "2024-03-16T09:00:00Z"
+  },
+  {
+    "key": "found_d2_h7",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.6\"/>",
+      "<windDirection id=\"dd\" deg=\"140.1\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.8\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"10.6\"/>",
+      "<globalRadiation value=\"50.9\" unit=\"W/m^2\"/>",
+      "<humidity value=\"95.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1014.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"100.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"83.4\"/>",
+      "<highClouds id=\"HIGH\" percent=\"93.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.9\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T08:00:00Z\" to=\"2024-03-16T09:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.2\" minvalue=\"0.1\" maxvalue=\"0.4\" probability=\"35.5\"/>",
+      "<symbol id=\"Drizzle\" number=\"46\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h7",
+    "value": [
+      7.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h7",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h7",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_b_d2_h7_float_values_d2_h7",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h7",
+    "value": [
+      13.2
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h7",
+    "value": [
+      10.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h7",
+    "value": [
+      10.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h7",
+    "value": [
+      20.6
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h7",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h8",
+    "value": "2024-03-16 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h8",
+    "value": "2024-03-16 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h8_1",
+    "value": "2024-03-16 10:00:00"
+  },
+  {
+    "key": "formatted_d2_h8",
+    "value": "2024-03-16T10:00:00Z"
+  },
+  {
+    "key": "found_d2_h8",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.8\"/>",
+      "<windDirection id=\"dd\" deg=\"153.1\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"8.5\" beaufort=\"5\" name=\"Frisk bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.8\"/>",
+      "<globalRadiation value=\"56.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"90.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1013.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"98.8\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"100.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T09:00:00Z\" to=\"2024-03-16T10:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.2\" probability=\"20.2\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h8",
+    "value": [
+      8.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h8",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h8",
+    "value": [
+      8.5
+    ]
+  },
+  {
+    "key": "wind_b_d2_h8_float_values_d2_h8",
+    "value": [
+      8.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h8",
+    "value": [
+      16.5
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h8",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h8",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h8",
+    "value": [
+      26.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h8",
+    "value": [
+      5
+    ]
+  },
+  {
+    "key": "d2_h9",
+    "value": "2024-03-16 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h9",
+    "value": "2024-03-16 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h9_1",
+    "value": "2024-03-16 11:00:00"
+  },
+  {
+    "key": "formatted_d2_h9",
+    "value": "2024-03-16T11:00:00Z"
+  },
+  {
+    "key": "found_d2_h9",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.8\"/>",
+      "<windDirection id=\"dd\" deg=\"151.2\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"8.9\" beaufort=\"5\" name=\"Frisk bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"15.4\"/>",
+      "<globalRadiation value=\"119.4\" unit=\"W/m^2\"/>",
+      "<humidity value=\"93.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1013.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"98.5\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"100.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T10:00:00Z\" to=\"2024-03-16T11:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.2\" probability=\"23.2\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h9",
+    "value": [
+      8.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h9",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h9",
+    "value": [
+      8.9
+    ]
+  },
+  {
+    "key": "wind_b_d2_h9_float_values_d2_h9",
+    "value": [
+      8.9
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h9",
+    "value": [
+      17.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h9",
+    "value": [
+      15.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h9",
+    "value": [
+      15.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h9",
+    "value": [
+      29.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h9",
+    "value": [
+      5
+    ]
+  },
+  {
+    "key": "d2_h10",
+    "value": "2024-03-16 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h10",
+    "value": "2024-03-16 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h10_1",
+    "value": "2024-03-16 12:00:00"
+  },
+  {
+    "key": "formatted_d2_h10",
+    "value": "2024-03-16T12:00:00Z"
+  },
+  {
+    "key": "found_d2_h10",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.6\"/>",
+      "<windDirection id=\"dd\" deg=\"149.4\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"8.2\" beaufort=\"5\" name=\"Frisk bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"16.4\"/>",
+      "<globalRadiation value=\"118.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"94.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1013.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"94.6\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"100.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T11:00:00Z\" to=\"2024-03-16T12:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.2\" probability=\"16.3\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h10",
+    "value": [
+      8.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h10",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h10",
+    "value": [
+      8.2
+    ]
+  },
+  {
+    "key": "wind_b_d2_h10_float_values_d2_h10",
+    "value": [
+      8.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h10",
+    "value": [
+      15.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h10",
+    "value": [
+      16.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h10",
+    "value": [
+      16.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h10",
+    "value": [
+      31.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h10",
+    "value": [
+      5
+    ]
+  },
+  {
+    "key": "d2_h11",
+    "value": "2024-03-16 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h11",
+    "value": "2024-03-16 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h11_1",
+    "value": "2024-03-16 13:00:00"
+  },
+  {
+    "key": "formatted_d2_h11",
+    "value": "2024-03-16T13:00:00Z"
+  },
+  {
+    "key": "found_d2_h11",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.6\"/>",
+      "<windDirection id=\"dd\" deg=\"149.2\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"7.7\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"15.9\"/>",
+      "<globalRadiation value=\"66.4\" unit=\"W/m^2\"/>",
+      "<humidity value=\"97.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1012.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"95.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"92.1\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.3\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T12:00:00Z\" to=\"2024-03-16T13:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.1\" minvalue=\"0.1\" maxvalue=\"0.2\" probability=\"25.3\"/>",
+      "<symbol id=\"Drizzle\" number=\"46\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h11",
+    "value": [
+      8.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h11",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h11",
+    "value": [
+      7.7
+    ]
+  },
+  {
+    "key": "wind_b_d2_h11_float_values_d2_h11",
+    "value": [
+      7.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h11",
+    "value": [
+      15.0
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h11",
+    "value": [
+      15.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h11",
+    "value": [
+      15.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h11",
+    "value": [
+      30.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h11",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h12",
+    "value": "2024-03-16 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h12",
+    "value": "2024-03-16 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h12_1",
+    "value": "2024-03-16 14:00:00"
+  },
+  {
+    "key": "formatted_d2_h12",
+    "value": "2024-03-16T14:00:00Z"
+  },
+  {
+    "key": "found_d2_h12",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.1\"/>",
+      "<windDirection id=\"dd\" deg=\"150.8\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.5\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"14.6\"/>",
+      "<globalRadiation value=\"49.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"97.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1011.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"90.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"96.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T13:00:00Z\" to=\"2024-03-16T14:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.2\" minvalue=\"0.1\" maxvalue=\"0.2\" probability=\"30.9\"/>",
+      "<symbol id=\"Drizzle\" number=\"46\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h12",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h12",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h12",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_d2_h12_float_values_d2_h12",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h12",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h12",
+    "value": [
+      14.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h12",
+    "value": [
+      14.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h12",
+    "value": [
+      28.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h12",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h13",
+    "value": "2024-03-16 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h13",
+    "value": "2024-03-16 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h13_1",
+    "value": "2024-03-16 15:00:00"
+  },
+  {
+    "key": "formatted_d2_h13",
+    "value": "2024-03-16T15:00:00Z"
+  },
+  {
+    "key": "found_d2_h13",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.2\"/>",
+      "<windDirection id=\"dd\" deg=\"164.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"7.0\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.8\"/>",
+      "<globalRadiation value=\"61.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"93.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"81.6\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"15.2\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.3\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T14:00:00Z\" to=\"2024-03-16T15:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.2\" minvalue=\"0.1\" maxvalue=\"0.3\" probability=\"31.5\"/>",
+      "<symbol id=\"Drizzle\" number=\"46\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h13",
+    "value": [
+      10.2
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h13",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h13",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_b_d2_h13_float_values_d2_h13",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h13",
+    "value": [
+      13.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h13",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h13",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h13",
+    "value": [
+      26.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h13",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h14",
+    "value": "2024-03-16 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h14",
+    "value": "2024-03-16 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h14_1",
+    "value": "2024-03-16 17:00:00"
+  },
+  {
+    "key": "formatted_d2_h14",
+    "value": "2024-03-16T17:00:00Z"
+  },
+  {
+    "key": "found_d2_h14",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.9\"/>",
+      "<windDirection id=\"dd\" deg=\"168.4\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.7\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"12.1\"/>",
+      "<globalRadiation value=\"40.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"60.3\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"37.1\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.7\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T16:00:00Z\" to=\"2024-03-16T17:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"6.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h14",
+    "value": [
+      10.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h14",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h14",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_b_d2_h14_float_values_d2_h14",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h14",
+    "value": [
+      11.1
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h14",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h14",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h14",
+    "value": [
+      23.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h14",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h15",
+    "value": "2024-03-16 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h15",
+    "value": "2024-03-16 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h15_1",
+    "value": "2024-03-16 18:00:00"
+  },
+  {
+    "key": "formatted_d2_h15",
+    "value": "2024-03-16T18:00:00Z"
+  },
+  {
+    "key": "found_d2_h15",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.6\"/>",
+      "<windDirection id=\"dd\" deg=\"154.9\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.6\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"10.7\"/>",
+      "<globalRadiation value=\"18.2\" unit=\"W/m^2\"/>",
+      "<humidity value=\"92.7\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"57.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"94.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T17:00:00Z\" to=\"2024-03-16T18:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"7.7\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h15",
+    "value": [
+      10.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h15",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h15",
+    "value": [
+      4.6
+    ]
+  },
+  {
+    "key": "wind_b_d2_h15_float_values_d2_h15",
+    "value": [
+      4.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h15",
+    "value": [
+      8.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h15",
+    "value": [
+      10.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h15",
+    "value": [
+      10.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h15",
+    "value": [
+      20.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h15",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h16",
+    "value": "2024-03-16 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h16",
+    "value": "2024-03-16 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h16_1",
+    "value": "2024-03-16 19:00:00"
+  },
+  {
+    "key": "formatted_d2_h16",
+    "value": "2024-03-16T19:00:00Z"
+  },
+  {
+    "key": "found_d2_h16",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.4\"/>",
+      "<windDirection id=\"dd\" deg=\"155.2\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.4\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"10.3\"/>",
+      "<globalRadiation value=\"2.1\" unit=\"W/m^2\"/>",
+      "<humidity value=\"95.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"100.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"93.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"99.8\"/>",
+      "<highClouds id=\"HIGH\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.7\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T18:00:00Z\" to=\"2024-03-16T19:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"7.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h16",
+    "value": [
+      10.4
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h16",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h16",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_d2_h16_float_values_d2_h16",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h16",
+    "value": [
+      8.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h16",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h16",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h16",
+    "value": [
+      20.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h16",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h17",
+    "value": "2024-03-16 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h17",
+    "value": "2024-03-16 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h17_1",
+    "value": "2024-03-16 20:00:00"
+  },
+  {
+    "key": "formatted_d2_h17",
+    "value": "2024-03-16T20:00:00Z"
+  },
+  {
+    "key": "found_d2_h17",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.3\"/>",
+      "<windDirection id=\"dd\" deg=\"164.5\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.1\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.5\"/>",
+      "<globalRadiation value=\"0.1\" unit=\"W/m^2\"/>",
+      "<humidity value=\"95.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"74.9\"/>",
+      "<lowClouds id=\"LOW\" percent=\"74.8\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.3\"/>",
+      "<highClouds id=\"HIGH\" percent=\"15.5\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T19:00:00Z\" to=\"2024-03-16T20:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"5.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h17",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h17",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h17",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_b_d2_h17_float_values_d2_h17",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h17",
+    "value": [
+      8.0
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h17",
+    "value": [
+      9.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h17",
+    "value": [
+      9.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h17",
+    "value": [
+      18.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h17",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h18",
+    "value": "2024-03-16 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h18",
+    "value": "2024-03-16 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h18_1",
+    "value": "2024-03-16 21:00:00"
+  },
+  {
+    "key": "formatted_d2_h18",
+    "value": "2024-03-16T21:00:00Z"
+  },
+  {
+    "key": "found_d2_h18",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.7\"/>",
+      "<windDirection id=\"dd\" deg=\"180.2\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.8\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.4\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"78.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"46.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"1.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"58.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T20:00:00Z\" to=\"2024-03-16T21:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"10.3\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h18",
+    "value": [
+      10.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h18",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h18",
+    "value": [
+      4.8
+    ]
+  },
+  {
+    "key": "wind_b_d2_h18_float_values_d2_h18",
+    "value": [
+      4.8
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h18",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h18",
+    "value": [
+      9.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h18",
+    "value": [
+      9.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h18",
+    "value": [
+      18.3
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h18",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d2_h19",
+    "value": "2024-03-16 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h19",
+    "value": "2024-03-16 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h19_1",
+    "value": "2024-03-16 22:00:00"
+  },
+  {
+    "key": "formatted_d2_h19",
+    "value": "2024-03-16T22:00:00Z"
+  },
+  {
+    "key": "found_d2_h19",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.8\"/>",
+      "<windDirection id=\"dd\" deg=\"173.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.6\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"99.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"43.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"8.4\"/>",
+      "<highClouds id=\"HIGH\" percent=\"99.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T21:00:00Z\" to=\"2024-03-16T22:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"10.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h19",
+    "value": [
+      10.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h19",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h19",
+    "value": [
+      5.6
+    ]
+  },
+  {
+    "key": "wind_b_d2_h19_float_values_d2_h19",
+    "value": [
+      5.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h19",
+    "value": [
+      10.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h19",
+    "value": [
+      8.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h19",
+    "value": [
+      8.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h19",
+    "value": [
+      16.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h19",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h20",
+    "value": "2024-03-16 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h20",
+    "value": "2024-03-16 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h20_1",
+    "value": "2024-03-16 22:00:00"
+  },
+  {
+    "key": "formatted_d2_h20",
+    "value": "2024-03-16T22:00:00Z"
+  },
+  {
+    "key": "found_d2_h20",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.8\"/>",
+      "<windDirection id=\"dd\" deg=\"173.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.6\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"99.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"43.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"8.4\"/>",
+      "<highClouds id=\"HIGH\" percent=\"99.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T21:00:00Z\" to=\"2024-03-16T22:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"10.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h20",
+    "value": [
+      10.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h20",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h20",
+    "value": [
+      5.6
+    ]
+  },
+  {
+    "key": "wind_b_d2_h20_float_values_d2_h20",
+    "value": [
+      5.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h20",
+    "value": [
+      10.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h20",
+    "value": [
+      8.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h20",
+    "value": [
+      8.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h20",
+    "value": [
+      16.9
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h20",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d2_h21",
+    "value": "2024-03-16 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h21",
+    "value": "2024-03-16 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h21_1",
+    "value": "2024-03-16 23:00:00"
+  },
+  {
+    "key": "formatted_d2_h21",
+    "value": "2024-03-16T23:00:00Z"
+  },
+  {
+    "key": "found_d2_h21",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.7\"/>",
+      "<windDirection id=\"dd\" deg=\"199.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.9\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.9\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"90.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.2\"/>",
+      "<cloudiness id=\"NN\" percent=\"99.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"56.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"99.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T22:00:00Z\" to=\"2024-03-16T23:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h21",
+    "value": [
+      10.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h21",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h21",
+    "value": [
+      2.9
+    ]
+  },
+  {
+    "key": "wind_b_d2_h21_float_values_d2_h21",
+    "value": [
+      2.9
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h21",
+    "value": [
+      5.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h21",
+    "value": [
+      7.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h21",
+    "value": [
+      7.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h21",
+    "value": [
+      15.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h21",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d2_h22",
+    "value": "2024-03-17 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h22",
+    "value": "2024-03-17 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h22_1",
+    "value": "2024-03-17 00:00:00"
+  },
+  {
+    "key": "formatted_d2_h22",
+    "value": "2024-03-17T00:00:00Z"
+  },
+  {
+    "key": "found_d2_h22",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.3\"/>",
+      "<windDirection id=\"dd\" deg=\"240.2\" name=\"SW\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.3\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.9\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"90.0\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"31.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"95.6\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-16T23:00:00Z\" to=\"2024-03-17T00:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h22",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h22",
+    "value": [
+      "SW"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h22",
+    "value": [
+      1.3
+    ]
+  },
+  {
+    "key": "wind_b_d2_h22_float_values_d2_h22",
+    "value": [
+      1.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h22",
+    "value": [
+      2.5
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h22",
+    "value": [
+      5.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h22",
+    "value": [
+      5.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h22",
+    "value": [
+      11.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h22",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "d2_h23",
+    "value": "2024-03-17 01:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h23",
+    "value": "2024-03-17 01:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h23_1",
+    "value": "2024-03-17 01:00:00"
+  },
+  {
+    "key": "formatted_d2_h23",
+    "value": "2024-03-17T01:00:00Z"
+  },
+  {
+    "key": "found_d2_h23",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.7\"/>",
+      "<windDirection id=\"dd\" deg=\"221.3\" name=\"SW\"/>",
+      "<windSpeed id=\"ff\" mps=\"0.7\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.3\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"96.5\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T00:00:00Z\" to=\"2024-03-17T01:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h23",
+    "value": [
+      9.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h23",
+    "value": [
+      "SW"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h23",
+    "value": [
+      0.7
+    ]
+  },
+  {
+    "key": "wind_b_d2_h23_float_values_d2_h23",
+    "value": [
+      0.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h23",
+    "value": [
+      1.4
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h23",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h23",
+    "value": [
+      4.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h23",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h23",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "d2_h24",
+    "value": "2024-03-17 02:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h24",
+    "value": "2024-03-17 02:01:38.102534"
+  },
+  {
+    "key": "rounded_d2_h24_1",
+    "value": "2024-03-17 02:00:00"
+  },
+  {
+    "key": "formatted_d2_h24",
+    "value": "2024-03-17T02:00:00Z"
+  },
+  {
+    "key": "found_d2_h24",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.3\"/>",
+      "<windDirection id=\"dd\" deg=\"132.6\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.0\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.5\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"98.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"43.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"16.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.1\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T01:00:00Z\" to=\"2024-03-17T02:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d2_h24",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d2_h24",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d2_h24",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_d2_h24_float_values_d2_h24",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d2_h24",
+    "value": [
+      3.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d2_h24",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d2_h24",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d2_h24",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d2_h24",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h1",
+    "value": "2024-03-17 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h1",
+    "value": "2024-03-17 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h1_1",
+    "value": "2024-03-17 03:00:00"
+  },
+  {
+    "key": "formatted_d3_h1",
+    "value": "2024-03-17T03:00:00Z"
+  },
+  {
+    "key": "found_d3_h1",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.7\"/>",
+      "<windDirection id=\"dd\" deg=\"142.4\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.2\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.8\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"96.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"11.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.1\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T02:00:00Z\" to=\"2024-03-17T03:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h1",
+    "value": [
+      7.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h1",
+    "value": [
+      "SE"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h1",
+    "value": [
+      2.2
+    ]
+  },
+  {
+    "key": "wind_b_d3_h1_float_values_d3_h1",
+    "value": [
+      2.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h1",
+    "value": [
+      4.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h1",
+    "value": [
+      3.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h1",
+    "value": [
+      3.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h1",
+    "value": [
+      7.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h1",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h2",
+    "value": "2024-03-17 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h2",
+    "value": "2024-03-17 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h2_1",
+    "value": "2024-03-17 04:00:00"
+  },
+  {
+    "key": "formatted_d3_h2",
+    "value": "2024-03-17T04:00:00Z"
+  },
+  {
+    "key": "found_d3_h2",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.1\"/>",
+      "<windDirection id=\"dd\" deg=\"165.2\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.7\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.1\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"98.0\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"27.5\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.4\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"0.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T03:00:00Z\" to=\"2024-03-17T04:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h2",
+    "value": [
+      7.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h2",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h2",
+    "value": [
+      1.7
+    ]
+  },
+  {
+    "key": "wind_b_d3_h2_float_values_d3_h2",
+    "value": [
+      1.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h2",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h2",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h2",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h2",
+    "value": [
+      8.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h2",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h3",
+    "value": "2024-03-17 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h3",
+    "value": "2024-03-17 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h3_1",
+    "value": "2024-03-17 05:00:00"
+  },
+  {
+    "key": "formatted_d3_h3",
+    "value": "2024-03-17T05:00:00Z"
+  },
+  {
+    "key": "found_d3_h3",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"6.8\"/>",
+      "<windDirection id=\"dd\" deg=\"179.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"1.2\" beaufort=\"1\" name=\"Flau vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.2\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"94.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"29.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.9\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"3.3\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.1\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T04:00:00Z\" to=\"2024-03-17T05:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h3",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h3",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h3",
+    "value": [
+      1.2
+    ]
+  },
+  {
+    "key": "wind_b_d3_h3_float_values_d3_h3",
+    "value": [
+      1.2
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h3",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h3",
+    "value": [
+      4.2
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h3",
+    "value": [
+      4.2
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h3",
+    "value": [
+      8.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h3",
+    "value": [
+      1
+    ]
+  },
+  {
+    "key": "d3_h4",
+    "value": "2024-03-17 06:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h4",
+    "value": "2024-03-17 06:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h4_1",
+    "value": "2024-03-17 06:00:00"
+  },
+  {
+    "key": "formatted_d3_h4",
+    "value": "2024-03-17T06:00:00Z"
+  },
+  {
+    "key": "found_d3_h4",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"6.4\"/>",
+      "<windDirection id=\"dd\" deg=\"174.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.1\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.5\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"93.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"10.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.3\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"5.2\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.3\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T05:00:00Z\" to=\"2024-03-17T06:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "d3_h5",
+    "value": "2024-03-17 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h5",
+    "value": "2024-03-17 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h5_1",
+    "value": "2024-03-17 07:00:00"
+  },
+  {
+    "key": "formatted_d3_h5",
+    "value": "2024-03-17T07:00:00Z"
+  },
+  {
+    "key": "found_d3_h5",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"6.4\"/>",
+      "<windDirection id=\"dd\" deg=\"164.8\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.5\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.6\"/>",
+      "<globalRadiation value=\"3.9\" unit=\"W/m^2\"/>",
+      "<humidity value=\"93.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"3.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.1\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"3.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T06:00:00Z\" to=\"2024-03-17T07:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.1\"/>",
+      "<symbol id=\"Sun\" number=\"1\"/>"
+    ]
+  },
+  {
+    "key": "d3_h6",
+    "value": "2024-03-17 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h6",
+    "value": "2024-03-17 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h6_1",
+    "value": "2024-03-17 08:00:00"
+  },
+  {
+    "key": "formatted_d3_h6",
+    "value": "2024-03-17T08:00:00Z"
+  },
+  {
+    "key": "found_d3_h6",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.2\"/>",
+      "<windDirection id=\"dd\" deg=\"146.6\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.0\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"3.5\"/>",
+      "<globalRadiation value=\"64.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"97.7\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"25.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"5.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"19.0\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T07:00:00Z\" to=\"2024-03-17T08:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"1.5\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>"
+    ]
+  },
+  {
+    "key": "d3_h7",
+    "value": "2024-03-17 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h7",
+    "value": "2024-03-17 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h7_1",
+    "value": "2024-03-17 09:00:00"
+  },
+  {
+    "key": "formatted_d3_h7",
+    "value": "2024-03-17T09:00:00Z"
+  },
+  {
+    "key": "found_d3_h7",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.3\"/>",
+      "<windDirection id=\"dd\" deg=\"136.0\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"4.6\"/>",
+      "<globalRadiation value=\"175.2\" unit=\"W/m^2\"/>",
+      "<humidity value=\"98.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"87.2\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"68.9\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T08:00:00Z\" to=\"2024-03-17T09:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.3\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "d3_h8",
+    "value": "2024-03-17 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h8",
+    "value": "2024-03-17 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h8_1",
+    "value": "2024-03-17 10:00:00"
+  },
+  {
+    "key": "formatted_d3_h8",
+    "value": "2024-03-17T10:00:00Z"
+  },
+  {
+    "key": "found_d3_h8",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.7\"/>",
+      "<windDirection id=\"dd\" deg=\"130.7\" name=\"SE\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.4\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.7\"/>",
+      "<globalRadiation value=\"274.3\" unit=\"W/m^2\"/>",
+      "<humidity value=\"98.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"92.9\"/>",
+      "<lowClouds id=\"LOW\" percent=\"86.0\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"85.4\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"9.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T09:00:00Z\" to=\"2024-03-17T10:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"5.8\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "d3_h9",
+    "value": "2024-03-17 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h9",
+    "value": "2024-03-17 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h9_1",
+    "value": "2024-03-17 11:00:00"
+  },
+  {
+    "key": "formatted_d3_h9",
+    "value": "2024-03-17T11:00:00Z"
+  },
+  {
+    "key": "found_d3_h9",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"13.9\"/>",
+      "<windDirection id=\"dd\" deg=\"186.8\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.1\"/>",
+      "<globalRadiation value=\"391.4\" unit=\"W/m^2\"/>",
+      "<humidity value=\"78.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"65.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"42.5\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"31.3\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"10.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T10:00:00Z\" to=\"2024-03-17T11:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>"
+    ]
+  },
+  {
+    "key": "d3_h10",
+    "value": "2024-03-17 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h10",
+    "value": "2024-03-17 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h10_1",
+    "value": "2024-03-17 12:00:00"
+  },
+  {
+    "key": "formatted_d3_h10",
+    "value": "2024-03-17T12:00:00Z"
+  },
+  {
+    "key": "found_d3_h10",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"13.1\"/>",
+      "<windDirection id=\"dd\" deg=\"273.6\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.2\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.4\"/>",
+      "<globalRadiation value=\"408.1\" unit=\"W/m^2\"/>",
+      "<humidity value=\"81.0\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.5\"/>",
+      "<lowClouds id=\"LOW\" percent=\"98.3\"/>",
+      "<mediumClouds id=\"MEDIUM\" percent=\"70.1\"/>",
+      "<highClouds id=\"HIGH\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"10.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T11:00:00Z\" to=\"2024-03-17T12:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.2\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>"
+    ]
+  },
+  {
+    "key": "d3_h11",
+    "value": "2024-03-17 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h11",
+    "value": "2024-03-17 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h11_1",
+    "value": "2024-03-17 13:00:00"
+  },
+  {
+    "key": "formatted_d3_h11",
+    "value": "2024-03-17T13:00:00Z"
+  },
+  {
+    "key": "found_d3_h11",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.2\"/>",
+      "<windDirection id=\"dd\" deg=\"275.2\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.6\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.1\"/>",
+      "<globalRadiation value=\"364.4\" unit=\"W/m^2\"/>",
+      "<humidity value=\"67.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"7.6\"/>",
+      "<lowClouds id=\"LOW\" percent=\"4.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.3\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T12:00:00Z\" to=\"2024-03-17T13:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"9.4\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "d3_h12",
+    "value": "2024-03-17 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h12",
+    "value": "2024-03-17 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h12_1",
+    "value": "2024-03-17 14:00:00"
+  },
+  {
+    "key": "formatted_d3_h12",
+    "value": "2024-03-17T14:00:00Z"
+  },
+  {
+    "key": "found_d3_h12",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.8\"/>",
+      "<windDirection id=\"dd\" deg=\"276.3\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.9\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.9\"/>",
+      "<globalRadiation value=\"376.9\" unit=\"W/m^2\"/>",
+      "<humidity value=\"60.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"38.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"35.7\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T13:00:00Z\" to=\"2024-03-17T14:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"7.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "d3_h13",
+    "value": "2024-03-17 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h13",
+    "value": "2024-03-17 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h13_1",
+    "value": "2024-03-17 15:00:00"
+  },
+  {
+    "key": "formatted_d3_h13",
+    "value": "2024-03-17T15:00:00Z"
+  },
+  {
+    "key": "found_d3_h13",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.7\"/>",
+      "<windDirection id=\"dd\" deg=\"272.1\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.7\"/>",
+      "<globalRadiation value=\"312.1\" unit=\"W/m^2\"/>",
+      "<humidity value=\"60.0\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"46.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"43.4\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.1\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T14:00:00Z\" to=\"2024-03-17T15:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"10.0\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "d3_h14",
+    "value": "2024-03-17 16:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h14",
+    "value": "2024-03-17 16:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h14_1",
+    "value": "2024-03-17 16:00:00"
+  },
+  {
+    "key": "formatted_d3_h14",
+    "value": "2024-03-17T16:00:00Z"
+  },
+  {
+    "key": "found_d3_h14",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.3\"/>",
+      "<windDirection id=\"dd\" deg=\"260.8\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.6\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.2\"/>",
+      "<globalRadiation value=\"237.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"60.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"95.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"61.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.9\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T15:00:00Z\" to=\"2024-03-17T16:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"8.9\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "d3_h15",
+    "value": "2024-03-17 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h15",
+    "value": "2024-03-17 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h15_1",
+    "value": "2024-03-17 17:00:00"
+  },
+  {
+    "key": "formatted_d3_h15",
+    "value": "2024-03-17T17:00:00Z"
+  },
+  {
+    "key": "found_d3_h15",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.9\"/>",
+      "<windDirection id=\"dd\" deg=\"253.1\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.7\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.6\"/>",
+      "<globalRadiation value=\"162.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"61.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.2\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"68.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T16:00:00Z\" to=\"2024-03-17T17:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"7.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h15",
+    "value": [
+      11.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h15",
+    "value": [
+      "W"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h15",
+    "value": [
+      3.7
+    ]
+  },
+  {
+    "key": "wind_b_d3_h15_float_values_d3_h15",
+    "value": [
+      3.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h15",
+    "value": [
+      7.2
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h15",
+    "value": [
+      7.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h15",
+    "value": [
+      7.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h15",
+    "value": [
+      14.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h15",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d3_h16",
+    "value": "2024-03-17 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h16",
+    "value": "2024-03-17 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h16_1",
+    "value": "2024-03-17 18:00:00"
+  },
+  {
+    "key": "formatted_d3_h16",
+    "value": "2024-03-17T18:00:00Z"
+  },
+  {
+    "key": "found_d3_h16",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.1\"/>",
+      "<windDirection id=\"dd\" deg=\"250.0\" name=\"W\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.5\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.5\"/>",
+      "<globalRadiation value=\"73.3\" unit=\"W/m^2\"/>",
+      "<humidity value=\"65.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"75.5\"/>",
+      "<lowClouds id=\"LOW\" percent=\"10.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T17:00:00Z\" to=\"2024-03-17T18:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"1.2\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h16",
+    "value": [
+      11.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h16",
+    "value": [
+      "W"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h16",
+    "value": [
+      2.5
+    ]
+  },
+  {
+    "key": "wind_b_d3_h16_float_values_d3_h16",
+    "value": [
+      2.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h16",
+    "value": [
+      4.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h16",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h16",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h16",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h16",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h17",
+    "value": "2024-03-17 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h17",
+    "value": "2024-03-17 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h17_1",
+    "value": "2024-03-17 19:00:00"
+  },
+  {
+    "key": "formatted_d3_h17",
+    "value": "2024-03-17T19:00:00Z"
+  },
+  {
+    "key": "found_d3_h17",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.8\"/>",
+      "<windDirection id=\"dd\" deg=\"194.3\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.0\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.2\"/>",
+      "<globalRadiation value=\"6.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"71.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.7\"/>",
+      "<cloudiness id=\"NN\" percent=\"53.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"4.9\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.7\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T18:00:00Z\" to=\"2024-03-17T19:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.9\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h17",
+    "value": [
+      9.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h17",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h17",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_d3_h17_float_values_d3_h17",
+    "value": [
+      2.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h17",
+    "value": [
+      3.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h17",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h17",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h17",
+    "value": [
+      10.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h17",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h18",
+    "value": "2024-03-17 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h18",
+    "value": "2024-03-17 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h18_1",
+    "value": "2024-03-17 20:00:00"
+  },
+  {
+    "key": "formatted_d3_h18",
+    "value": "2024-03-17T20:00:00Z"
+  },
+  {
+    "key": "found_d3_h18",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.4\"/>",
+      "<windDirection id=\"dd\" deg=\"199.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.0\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"76.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1011.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"28.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"12.6\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T19:00:00Z\" to=\"2024-03-17T20:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.1\"/>",
+      "<symbol id=\"LightCloud\" number=\"2\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h18",
+    "value": [
+      8.4
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h18",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h18",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_d3_h18_float_values_d3_h18",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h18",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h18",
+    "value": [
+      5.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h18",
+    "value": [
+      5.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h18",
+    "value": [
+      9.7
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h18",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d3_h19",
+    "value": "2024-03-17 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h19",
+    "value": "2024-03-17 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h19_1",
+    "value": "2024-03-17 21:00:00"
+  },
+  {
+    "key": "formatted_d3_h19",
+    "value": "2024-03-17T21:00:00Z"
+  },
+  {
+    "key": "found_d3_h19",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.2\"/>",
+      "<windDirection id=\"dd\" deg=\"198.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.0\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.2\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"75.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1011.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"1.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.1\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T20:00:00Z\" to=\"2024-03-17T21:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"1.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h19",
+    "value": [
+      8.2
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h19",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h19",
+    "value": [
+      4.0
+    ]
+  },
+  {
+    "key": "wind_b_d3_h19_float_values_d3_h19",
+    "value": [
+      4.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h19",
+    "value": [
+      7.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h19",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h19",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h19",
+    "value": [
+      10.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h19",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d3_h20",
+    "value": "2024-03-17 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h20",
+    "value": "2024-03-17 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h20_1",
+    "value": "2024-03-17 22:00:00"
+  },
+  {
+    "key": "formatted_d3_h20",
+    "value": "2024-03-17T22:00:00Z"
+  },
+  {
+    "key": "found_d3_h20",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.1\"/>",
+      "<windDirection id=\"dd\" deg=\"191.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.4\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"80.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1011.1\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"4.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T21:00:00Z\" to=\"2024-03-17T22:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"3.8\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h20",
+    "value": [
+      8.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h20",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h20",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_d3_h20_float_values_d3_h20",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h20",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h20",
+    "value": [
+      5.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h20",
+    "value": [
+      5.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h20",
+    "value": [
+      10.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h20",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d3_h21",
+    "value": "2024-03-17 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h21",
+    "value": "2024-03-17 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h21_1",
+    "value": "2024-03-17 23:00:00"
+  },
+  {
+    "key": "formatted_d3_h21",
+    "value": "2024-03-17T23:00:00Z"
+  },
+  {
+    "key": "found_d3_h21",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.6\"/>",
+      "<windDirection id=\"dd\" deg=\"178.3\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"5.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"84.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T22:00:00Z\" to=\"2024-03-17T23:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"4.9\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h21",
+    "value": [
+      7.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h21",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h21",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_b_d3_h21_float_values_d3_h21",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h21",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h21",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h21",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h21",
+    "value": [
+      11.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h21",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d3_h22",
+    "value": "2024-03-18 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h22",
+    "value": "2024-03-18 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d3_h22_1",
+    "value": "2024-03-18 00:00:00"
+  },
+  {
+    "key": "formatted_d3_h22",
+    "value": "2024-03-18T00:00:00Z"
+  },
+  {
+    "key": "found_d3_h22",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.8\"/>",
+      "<windDirection id=\"dd\" deg=\"187.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.7\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.0\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"82.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"87.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"2.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-17T23:00:00Z\" to=\"2024-03-18T00:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"7.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d3_h22",
+    "value": [
+      7.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d3_h22",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d3_h22",
+    "value": [
+      3.7
+    ]
+  },
+  {
+    "key": "wind_b_d3_h22_float_values_d3_h22",
+    "value": [
+      3.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d3_h22",
+    "value": [
+      7.2
+    ]
+  },
+  {
+    "key": "wind_g_value_d3_h22",
+    "value": [
+      6.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d3_h22",
+    "value": [
+      6.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d3_h22",
+    "value": [
+      11.7
+    ]
+  },
+  {
+    "key": "wind_bf_value_d3_h22",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h1",
+    "value": "2024-03-18 01:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h1",
+    "value": "2024-03-18 01:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h1_1",
+    "value": "2024-03-18 01:00:00"
+  },
+  {
+    "key": "formatted_d4_h1",
+    "value": "2024-03-18T01:00:00Z"
+  },
+  {
+    "key": "found_d4_h1",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"7.9\"/>",
+      "<windDirection id=\"dd\" deg=\"184.3\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.4\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.5\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"86.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"52.9\"/>",
+      "<lowClouds id=\"LOW\" percent=\"32.9\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.7\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T00:00:00Z\" to=\"2024-03-18T01:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"15.7\"/>",
+      "<symbol id=\"PartlyCloud\" number=\"3\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h1",
+    "value": [
+      7.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h1",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h1",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_d4_h1_float_values_d4_h1",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h1",
+    "value": [
+      8.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h1",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h1",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h1",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h1",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h2",
+    "value": "2024-03-18 02:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h2",
+    "value": "2024-03-18 02:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h2_1",
+    "value": "2024-03-18 02:00:00"
+  },
+  {
+    "key": "formatted_d4_h2",
+    "value": "2024-03-18T02:00:00Z"
+  },
+  {
+    "key": "found_d4_h2",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.5\"/>",
+      "<windDirection id=\"dd\" deg=\"195.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.7\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.8\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"87.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.0\"/>",
+      "<lowClouds id=\"LOW\" percent=\"96.4\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T01:00:00Z\" to=\"2024-03-18T02:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.2\" probability=\"19.8\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h2",
+    "value": [
+      8.5
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h2",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h2",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_b_d4_h2_float_values_d4_h2",
+    "value": [
+      5.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h2",
+    "value": [
+      11.1
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h2",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h2",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h2",
+    "value": [
+      13.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h2",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h3",
+    "value": "2024-03-18 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h3",
+    "value": "2024-03-18 03:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h3_1",
+    "value": "2024-03-18 03:00:00"
+  },
+  {
+    "key": "formatted_d4_h3",
+    "value": "2024-03-18T03:00:00Z"
+  },
+  {
+    "key": "found_d4_h3",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.1\"/>",
+      "<windDirection id=\"dd\" deg=\"194.5\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.3\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.0\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"88.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"98.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.3\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T02:00:00Z\" to=\"2024-03-18T03:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.2\" probability=\"21.7\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h3",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h3",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h3",
+    "value": [
+      5.3
+    ]
+  },
+  {
+    "key": "wind_b_d4_h3_float_values_d4_h3",
+    "value": [
+      5.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h3",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h3",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h3",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h3",
+    "value": [
+      13.6
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h3",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h4",
+    "value": "2024-03-18 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h4",
+    "value": "2024-03-18 04:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h4_1",
+    "value": "2024-03-18 04:00:00"
+  },
+  {
+    "key": "formatted_d4_h4",
+    "value": "2024-03-18T04:00:00Z"
+  },
+  {
+    "key": "found_d4_h4",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.3\"/>",
+      "<windDirection id=\"dd\" deg=\"182.4\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.1\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.1\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"90.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.7\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T03:00:00Z\" to=\"2024-03-18T04:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"7.3\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h4",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h4",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h4",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_b_d4_h4_float_values_d4_h4",
+    "value": [
+      4.1
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h4",
+    "value": [
+      8.0
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h4",
+    "value": [
+      7.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h4",
+    "value": [
+      7.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h4",
+    "value": [
+      13.8
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h4",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h5",
+    "value": "2024-03-18 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h5",
+    "value": "2024-03-18 05:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h5_1",
+    "value": "2024-03-18 05:00:00"
+  },
+  {
+    "key": "formatted_d4_h5",
+    "value": "2024-03-18T05:00:00Z"
+  },
+  {
+    "key": "found_d4_h5",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.3\"/>",
+      "<windDirection id=\"dd\" deg=\"187.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.5\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.0\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.4\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"99.4\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.9\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T04:00:00Z\" to=\"2024-03-18T05:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"5.3\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h5",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h5",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h5",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_d4_h5_float_values_d4_h5",
+    "value": [
+      3.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h5",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h5",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h5",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h5",
+    "value": [
+      13.6
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h5",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h6",
+    "value": "2024-03-18 06:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h6",
+    "value": "2024-03-18 06:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h6_1",
+    "value": "2024-03-18 06:00:00"
+  },
+  {
+    "key": "formatted_d4_h6",
+    "value": "2024-03-18T06:00:00Z"
+  },
+  {
+    "key": "found_d4_h6",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.0\"/>",
+      "<windDirection id=\"dd\" deg=\"199.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.7\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.7\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.5\"/>",
+      "<lowClouds id=\"LOW\" percent=\"67.9\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.8\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T05:00:00Z\" to=\"2024-03-18T06:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"5.4\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h6",
+    "value": [
+      9.0
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h6",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h6",
+    "value": [
+      2.7
+    ]
+  },
+  {
+    "key": "wind_b_d4_h6_float_values_d4_h6",
+    "value": [
+      2.7
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h6",
+    "value": [
+      5.2
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h6",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h6",
+    "value": [
+      6.7
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h6",
+    "value": [
+      13.0
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h6",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d4_h7",
+    "value": "2024-03-18 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h7",
+    "value": "2024-03-18 07:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h7_1",
+    "value": "2024-03-18 07:00:00"
+  },
+  {
+    "key": "formatted_d4_h7",
+    "value": "2024-03-18T07:00:00Z"
+  },
+  {
+    "key": "found_d4_h7",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"8.7\"/>",
+      "<windDirection id=\"dd\" deg=\"208.5\" name=\"SW\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.4\"/>",
+      "<globalRadiation value=\"3.9\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.9\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.7\"/>",
+      "<lowClouds id=\"LOW\" percent=\"28.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T06:00:00Z\" to=\"2024-03-18T07:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"3.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h7",
+    "value": [
+      8.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h7",
+    "value": [
+      "SW"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h7",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_d4_h7_float_values_d4_h7",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h7",
+    "value": [
+      4.5
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h7",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h7",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h7",
+    "value": [
+      12.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h7",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d4_h8",
+    "value": "2024-03-18 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h8",
+    "value": "2024-03-18 08:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h8_1",
+    "value": "2024-03-18 08:00:00"
+  },
+  {
+    "key": "formatted_d4_h8",
+    "value": "2024-03-18T08:00:00Z"
+  },
+  {
+    "key": "found_d4_h8",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.1\"/>",
+      "<windDirection id=\"dd\" deg=\"201.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.4\"/>",
+      "<globalRadiation value=\"65.3\" unit=\"W/m^2\"/>",
+      "<humidity value=\"88.2\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.2\"/>",
+      "<cloudiness id=\"NN\" percent=\"95.2\"/>",
+      "<lowClouds id=\"LOW\" percent=\"5.7\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T07:00:00Z\" to=\"2024-03-18T08:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h8",
+    "value": [
+      9.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h8",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h8",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_d4_h8_float_values_d4_h8",
+    "value": [
+      2.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h8",
+    "value": [
+      4.5
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h8",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h8",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h8",
+    "value": [
+      12.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h8",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d4_h9",
+    "value": "2024-03-18 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h9",
+    "value": "2024-03-18 09:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h9_1",
+    "value": "2024-03-18 09:00:00"
+  },
+  {
+    "key": "formatted_d4_h9",
+    "value": "2024-03-18T09:00:00Z"
+  },
+  {
+    "key": "found_d4_h9",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.9\"/>",
+      "<windDirection id=\"dd\" deg=\"178.7\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"2.5\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"6.8\"/>",
+      "<globalRadiation value=\"168.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"82.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"0.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T08:00:00Z\" to=\"2024-03-18T09:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.1\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h9",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h9",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h9",
+    "value": [
+      2.5
+    ]
+  },
+  {
+    "key": "wind_b_d4_h9_float_values_d4_h9",
+    "value": [
+      2.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h9",
+    "value": [
+      4.9
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h9",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h9",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h9",
+    "value": [
+      13.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h9",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d4_h10",
+    "value": "2024-03-18 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h10",
+    "value": "2024-03-18 10:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h10_1",
+    "value": "2024-03-18 10:00:00"
+  },
+  {
+    "key": "formatted_d4_h10",
+    "value": "2024-03-18T10:00:00Z"
+  },
+  {
+    "key": "found_d4_h10",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.6\"/>",
+      "<windDirection id=\"dd\" deg=\"160.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"3.3\" beaufort=\"2\" name=\"Svak vind\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.4\"/>",
+      "<globalRadiation value=\"275.8\" unit=\"W/m^2\"/>",
+      "<humidity value=\"78.1\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1010.2\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.4\"/>",
+      "<lowClouds id=\"LOW\" percent=\"2.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"7.0\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T09:00:00Z\" to=\"2024-03-18T10:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h10",
+    "value": [
+      10.6
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h10",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h10",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_b_d4_h10_float_values_d4_h10",
+    "value": [
+      3.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h10",
+    "value": [
+      6.4
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h10",
+    "value": [
+      7.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h10",
+    "value": [
+      7.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h10",
+    "value": [
+      14.4
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h10",
+    "value": [
+      2
+    ]
+  },
+  {
+    "key": "d4_h11",
+    "value": "2024-03-18 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h11",
+    "value": "2024-03-18 11:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h11_1",
+    "value": "2024-03-18 11:00:00"
+  },
+  {
+    "key": "formatted_d4_h11",
+    "value": "2024-03-18T11:00:00Z"
+  },
+  {
+    "key": "found_d4_h11",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.2\"/>",
+      "<windDirection id=\"dd\" deg=\"162.3\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"4.4\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"7.8\"/>",
+      "<globalRadiation value=\"364.8\" unit=\"W/m^2\"/>",
+      "<humidity value=\"72.9\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"90.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"3.5\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T10:00:00Z\" to=\"2024-03-18T11:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h11",
+    "value": [
+      11.2
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h11",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h11",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_d4_h11_float_values_d4_h11",
+    "value": [
+      4.4
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h11",
+    "value": [
+      8.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h11",
+    "value": [
+      7.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h11",
+    "value": [
+      7.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h11",
+    "value": [
+      15.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h11",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h12",
+    "value": "2024-03-18 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h12",
+    "value": "2024-03-18 12:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h12_1",
+    "value": "2024-03-18 12:00:00"
+  },
+  {
+    "key": "formatted_d4_h12",
+    "value": "2024-03-18T12:00:00Z"
+  },
+  {
+    "key": "found_d4_h12",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.9\"/>",
+      "<windDirection id=\"dd\" deg=\"166.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"5.3\" beaufort=\"3\" name=\"Lett bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.3\"/>",
+      "<globalRadiation value=\"413.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"66.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1009.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"22.9\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.9\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T11:00:00Z\" to=\"2024-03-18T12:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"2.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h12",
+    "value": [
+      11.9
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h12",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h12",
+    "value": [
+      5.3
+    ]
+  },
+  {
+    "key": "wind_b_d4_h12_float_values_d4_h12",
+    "value": [
+      5.3
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h12",
+    "value": [
+      10.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h12",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h12",
+    "value": [
+      8.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h12",
+    "value": [
+      16.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h12",
+    "value": [
+      3
+    ]
+  },
+  {
+    "key": "d4_h13",
+    "value": "2024-03-18 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h13",
+    "value": "2024-03-18 13:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h13_1",
+    "value": "2024-03-18 13:00:00"
+  },
+  {
+    "key": "formatted_d4_h13",
+    "value": "2024-03-18T13:00:00Z"
+  },
+  {
+    "key": "found_d4_h13",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.1\"/>",
+      "<windDirection id=\"dd\" deg=\"168.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.5\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"8.8\"/>",
+      "<globalRadiation value=\"399.2\" unit=\"W/m^2\"/>",
+      "<humidity value=\"63.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.6\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"88.6\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T12:00:00Z\" to=\"2024-03-18T13:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"2.8\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h13",
+    "value": [
+      12.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h13",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h13",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_d4_h13_float_values_d4_h13",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h13",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h13",
+    "value": [
+      8.8
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h13",
+    "value": [
+      8.8
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h13",
+    "value": [
+      17.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h13",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h14",
+    "value": "2024-03-18 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h14",
+    "value": "2024-03-18 14:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h14_1",
+    "value": "2024-03-18 14:00:00"
+  },
+  {
+    "key": "formatted_d4_h14",
+    "value": "2024-03-18T14:00:00Z"
+  },
+  {
+    "key": "found_d4_h14",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.3\"/>",
+      "<windDirection id=\"dd\" deg=\"178.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.8\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.3\"/>",
+      "<globalRadiation value=\"344.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"65.3\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1008.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"23.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.9\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T13:00:00Z\" to=\"2024-03-18T14:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"3.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h14",
+    "value": [
+      12.3
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h14",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h14",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_b_d4_h14_float_values_d4_h14",
+    "value": [
+      6.8
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h14",
+    "value": [
+      13.2
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h14",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h14",
+    "value": [
+      9.3
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h14",
+    "value": [
+      18.1
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h14",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h15",
+    "value": "2024-03-18 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h15",
+    "value": "2024-03-18 15:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h15_1",
+    "value": "2024-03-18 15:00:00"
+  },
+  {
+    "key": "formatted_d4_h15",
+    "value": "2024-03-18T15:00:00Z"
+  },
+  {
+    "key": "found_d4_h15",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"12.2\"/>",
+      "<windDirection id=\"dd\" deg=\"183.6\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.5\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.6\"/>",
+      "<globalRadiation value=\"284.6\" unit=\"W/m^2\"/>",
+      "<humidity value=\"63.7\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1007.5\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.8\"/>",
+      "<lowClouds id=\"LOW\" percent=\"18.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.5\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T14:00:00Z\" to=\"2024-03-18T15:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"2.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h15",
+    "value": [
+      12.2
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h15",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h15",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_d4_h15_float_values_d4_h15",
+    "value": [
+      6.5
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h15",
+    "value": [
+      12.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h15",
+    "value": [
+      9.6
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h15",
+    "value": [
+      9.6
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h15",
+    "value": [
+      18.7
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h15",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h16",
+    "value": "2024-03-18 16:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h16",
+    "value": "2024-03-18 16:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h16_1",
+    "value": "2024-03-18 16:00:00"
+  },
+  {
+    "key": "formatted_d4_h16",
+    "value": "2024-03-18T16:00:00Z"
+  },
+  {
+    "key": "found_d4_h16",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.8\"/>",
+      "<windDirection id=\"dd\" deg=\"174.4\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.6\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.9\"/>",
+      "<globalRadiation value=\"209.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"65.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1006.8\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.1\"/>",
+      "<lowClouds id=\"LOW\" percent=\"4.8\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"5.6\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T15:00:00Z\" to=\"2024-03-18T16:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.0\" probability=\"7.6\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h16",
+    "value": [
+      11.8
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h16",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h16",
+    "value": [
+      6.6
+    ]
+  },
+  {
+    "key": "wind_b_d4_h16_float_values_d4_h16",
+    "value": [
+      6.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h16",
+    "value": [
+      12.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h16",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h16",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h16",
+    "value": [
+      19.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h16",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h17",
+    "value": "2024-03-18 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h17",
+    "value": "2024-03-18 17:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h17_1",
+    "value": "2024-03-18 17:00:00"
+  },
+  {
+    "key": "formatted_d4_h17",
+    "value": "2024-03-18T17:00:00Z"
+  },
+  {
+    "key": "found_d4_h17",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"11.1\"/>",
+      "<windDirection id=\"dd\" deg=\"172.0\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"6.6\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.9\"/>",
+      "<globalRadiation value=\"135.5\" unit=\"W/m^2\"/>",
+      "<humidity value=\"71.8\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1006.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"93.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"1.2\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T16:00:00Z\" to=\"2024-03-18T17:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.1\" probability=\"12.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h17",
+    "value": [
+      11.1
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h17",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h17",
+    "value": [
+      6.6
+    ]
+  },
+  {
+    "key": "wind_b_d4_h17_float_values_d4_h17",
+    "value": [
+      6.6
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h17",
+    "value": [
+      12.8
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h17",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h17",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h17",
+    "value": [
+      19.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h17",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h18",
+    "value": "2024-03-18 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h18",
+    "value": "2024-03-18 18:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h18_1",
+    "value": "2024-03-18 18:00:00"
+  },
+  {
+    "key": "formatted_d4_h18",
+    "value": "2024-03-18T18:00:00Z"
+  },
+  {
+    "key": "found_d4_h18",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"10.0\"/>",
+      "<windDirection id=\"dd\" deg=\"169.9\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"7.0\" beaufort=\"4\" name=\"Laber bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"9.9\"/>",
+      "<globalRadiation value=\"59.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"78.6\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1006.3\"/>",
+      "<cloudiness id=\"NN\" percent=\"97.3\"/>",
+      "<lowClouds id=\"LOW\" percent=\"9.3\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"6.4\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T17:00:00Z\" to=\"2024-03-18T18:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\" minvalue=\"0.0\" maxvalue=\"0.3\" probability=\"23.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h18",
+    "value": [
+      10.0
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h18",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h18",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_b_d4_h18_float_values_d4_h18",
+    "value": [
+      7.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h18",
+    "value": [
+      13.6
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h18",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h18",
+    "value": [
+      9.9
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h18",
+    "value": [
+      19.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h18",
+    "value": [
+      4
+    ]
+  },
+  {
+    "key": "d4_h19",
+    "value": "2024-03-18 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h19",
+    "value": "2024-03-18 19:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h19_1",
+    "value": "2024-03-18 19:00:00"
+  },
+  {
+    "key": "formatted_d4_h19",
+    "value": "2024-03-18T19:00:00Z"
+  },
+  {
+    "key": "found_d4_h19",
+    "value": []
+  },
+  {
+    "key": "celsius_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_d_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_b_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_b_d4_h19_float_values_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_b_k_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_g_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_g_float_values_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_g_k_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "wind_bf_value_d4_h19",
+    "value": []
+  },
+  {
+    "key": "d4_h20",
+    "value": "2024-03-18 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h20",
+    "value": "2024-03-18 20:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h20_1",
+    "value": "2024-03-18 20:00:00"
+  },
+  {
+    "key": "formatted_d4_h20",
+    "value": "2024-03-18T20:00:00Z"
+  },
+  {
+    "key": "found_d4_h20",
+    "value": []
+  },
+  {
+    "key": "celsius_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_d_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_b_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_b_d4_h20_float_values_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_b_k_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_g_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_g_float_values_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_g_k_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "wind_bf_value_d4_h20",
+    "value": []
+  },
+  {
+    "key": "d4_h21",
+    "value": "2024-03-18 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h21",
+    "value": "2024-03-18 21:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h21_1",
+    "value": "2024-03-18 21:00:00"
+  },
+  {
+    "key": "formatted_d4_h21",
+    "value": "2024-03-18T21:00:00Z"
+  },
+  {
+    "key": "found_d4_h21",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.7\"/>",
+      "<windDirection id=\"dd\" deg=\"175.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"8.4\" beaufort=\"5\" name=\"Frisk bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"11.4\"/>",
+      "<globalRadiation value=\"1.7\" unit=\"W/m^2\"/>",
+      "<humidity value=\"90.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1005.4\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.7\"/>",
+      "<lowClouds id=\"LOW\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T18:00:00Z\" to=\"2024-03-18T21:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h21",
+    "value": [
+      9.7
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h21",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h21",
+    "value": [
+      8.4
+    ]
+  },
+  {
+    "key": "wind_b_d4_h21_float_values_d4_h21",
+    "value": [
+      8.4
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h21",
+    "value": [
+      16.3
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h21",
+    "value": [
+      11.4
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h21",
+    "value": [
+      11.4
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h21",
+    "value": [
+      22.2
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h21",
+    "value": [
+      5
+    ]
+  },
+  {
+    "key": "d4_h22",
+    "value": "2024-03-18 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h22",
+    "value": "2024-03-18 22:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h22_1",
+    "value": "2024-03-18 22:00:00"
+  },
+  {
+    "key": "formatted_d4_h22",
+    "value": "2024-03-18T22:00:00Z"
+  },
+  {
+    "key": "found_d4_h22",
+    "value": []
+  },
+  {
+    "key": "celsius_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_d_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_b_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_b_d4_h22_float_values_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_b_k_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_g_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_g_float_values_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_g_k_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "wind_bf_value_d4_h22",
+    "value": []
+  },
+  {
+    "key": "d4_h23",
+    "value": "2024-03-18 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h23",
+    "value": "2024-03-18 23:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h23_1",
+    "value": "2024-03-18 23:00:00"
+  },
+  {
+    "key": "formatted_d4_h23",
+    "value": "2024-03-18T23:00:00Z"
+  },
+  {
+    "key": "found_d4_h23",
+    "value": []
+  },
+  {
+    "key": "celsius_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_d_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_b_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_b_d4_h23_float_values_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_b_k_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_g_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_g_float_values_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_g_k_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "wind_bf_value_d4_h23",
+    "value": []
+  },
+  {
+    "key": "d4_h24",
+    "value": "2024-03-19 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h24",
+    "value": "2024-03-19 00:01:38.102534"
+  },
+  {
+    "key": "rounded_d4_h24_1",
+    "value": "2024-03-19 00:00:00"
+  },
+  {
+    "key": "formatted_d4_h24",
+    "value": "2024-03-19T00:00:00Z"
+  },
+  {
+    "key": "found_d4_h24",
+    "value": [
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<temperature id=\"TTT\" unit=\"celsius\" value=\"9.5\"/>",
+      "<windDirection id=\"dd\" deg=\"171.1\" name=\"S\"/>",
+      "<windSpeed id=\"ff\" mps=\"10.0\" beaufort=\"5\" name=\"Frisk bris\"/>",
+      "<windGust id=\"ff_gust\" mps=\"13.1\"/>",
+      "<globalRadiation value=\"0.0\" unit=\"W/m^2\"/>",
+      "<humidity value=\"91.5\" unit=\"percent\"/>",
+      "<pressure id=\"pr\" unit=\"hPa\" value=\"1003.0\"/>",
+      "<cloudiness id=\"NN\" percent=\"98.7\"/>",
+      "<lowClouds id=\"LOW\" percent=\"100.0\"/>",
+      "<dewpointTemperature id=\"TD\" unit=\"celsius\" value=\"8.2\"/>",
+      "</location>",
+      "</time>",
+      "<time datatype=\"forecast\" from=\"2024-03-18T21:00:00Z\" to=\"2024-03-19T00:00:00Z\">",
+      "<location altitude=\"26\" latitude=\"53.2771\" longitude=\"-6.1448\">",
+      "<precipitation unit=\"mm\" value=\"0.0\"/>",
+      "<symbol id=\"Cloud\" number=\"4\"/>",
+      "</location>",
+      "</time>"
+    ]
+  },
+  {
+    "key": "celsius_value_d4_h24",
+    "value": [
+      9.5
+    ]
+  },
+  {
+    "key": "wind_d_value_d4_h24",
+    "value": [
+      "S"
+    ]
+  },
+  {
+    "key": "wind_b_value_d4_h24",
+    "value": [
+      10.0
+    ]
+  },
+  {
+    "key": "wind_b_d4_h24_float_values_d4_h24",
+    "value": [
+      10.0
+    ]
+  },
+  {
+    "key": "wind_b_k_value_d4_h24",
+    "value": [
+      19.4
+    ]
+  },
+  {
+    "key": "wind_g_value_d4_h24",
+    "value": [
+      13.1
+    ]
+  },
+  {
+    "key": "wind_g_float_values_d4_h24",
+    "value": [
+      13.1
+    ]
+  },
+  {
+    "key": "wind_g_k_value_d4_h24",
+    "value": [
+      25.5
+    ]
+  },
+  {
+    "key": "wind_bf_value_d4_h24",
+    "value": [
+      5
+    ]
+  },
+  {
+    "key": "global_var",
+    "value": "I am a global variable"
+  },
+  {
+    "key": "my_function",
+    "value": null
+  },
+  {
+    "key": "serialize",
+    "value": null
+  },
+  {
+    "key": "var1",
+    "value": 42
+  },
+  {
+    "key": "var2",
+    "value": "Hello, World!"
+  },
+  {
+    "key": "var3",
+    "value": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "key": "var4",
+    "value": {
+      "key": "value"
+    }
+  }
+]
